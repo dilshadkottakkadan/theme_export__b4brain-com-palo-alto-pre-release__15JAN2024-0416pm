@@ -1,0 +1,184 @@
+{%- assign page_content = page.content -%}
+{%- assign formId = 'contact_form_page' -%}
+
+{%- if settings.show_map and settings.map != blank %}<style>.se_contact_map iframe {margin-bottom: 0;padding: 0;display: block;width: 100%;border: none;}</style><div class="se_contact_map">{{settings.map}}</div>{% endif -%}
+<div class="container mt__100 mb__100">
+  <div class="row contact-us fl_center">
+    <div class="contact-address col-md-4">
+      <div class="wrap">
+        <h3 class="mb__20">{{ section.settings.title }}</h3>
+
+        {% if section.settings.email != empty %}
+          <div class="contact-item">
+            <h4 class="title"><i class="pegk pe-7s-mail"></i> Email</h4>
+            <div class="content">
+              <a href="mailto:{{section.settings.email}}">{{section.settings.email}}</a>
+            </div>
+          </div>
+        {% endif %}  
+
+        {% if section.settings.phone != empty %}
+          <div class="contact-item">
+            <h4 class="title"><i class="pegk pe-7s-call"></i> Phone</h4>
+            <div class="content">
+              <a href="tel:{{section.settings.phone}}">{{section.settings.phone}}</a>
+            </div>
+          </div>
+        {% endif %}  
+
+        {% if section.settings.address != empty %}
+          <div class="contact-item">
+            <h4 class="title"><i class="pegk pe-7s-map-marker"></i> Office Address</h4>
+            <div class="content">
+              {{section.settings.address | newline_to_br }}
+            </div>
+          </div>
+        {% endif %} 
+        
+      </div>
+
+    </div>
+      <div class="contact-form col-md-8 mb__20">
+         {%- form 'contact', id: formId -%}
+           {%- render 'form-status', form: form, form_id: formId -%}
+           
+           <h3 class="mb__20">{{ section.settings.form_title }}</h3>
+           
+           <div class="row">
+            <p class="col-md-6">
+              <input placeholder="{{ section.settings.form_name }}" required="required" type="text" id="{{ formId }}-name" name="contact[name]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
+            </p>
+            <p class="col-md-6">
+                <input
+                  placeholder="{{ section.settings.form_email }}"
+                  required="required"
+                  type="email"
+                  id="{{ formId }}-email"
+                  name="contact[email]"
+                  autocorrect="off"
+                  autocapitalize="off"
+                  value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                  aria-required="true"
+                  required="required"
+                  {%- if form.errors contains 'email' -%}
+                    class="input--error"
+                    aria-invalid="true"
+                    aria-describedby="{{ formId }}-email-error"
+                  {%- endif -%}
+                  >
+                {%- if form.errors contains 'email' -%}
+                  <span id="{{ formId}}-email-error" class="input-error-message"><i class="facl facl-attention cr mr__5"></i>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
+                {%- endif -%}
+            </p>
+
+            {%- unless page_content contains 'no_phone' -%}
+              <p class="col-md-6">
+              <input placeholder="{{ section.settings.form_phone }}" type="tel" id="{{ formId }}-phone" name="contact[phone]"  required="required"  value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+              </p>
+            {%- endunless -%}
+
+            <p class="col-md-6">
+              {% comment %} <input placeholder="{{ section.settings.form_enquiry }}" required="required" type="text" id="{{ formId }}-enquiry" name="contact[enquiry]" value="{% if form[enquiry] %}{{ form[enquiry] }}{% elsif customer %}{{ customer.enquiry }}{% endif %}"> {% endcomment %}
+              <select id="{{ formId }}-enquiry" name="contact[enquiry]" id="first_step" required="required">
+                <option selected="" value="">Select a support</option>
+                <option>Return</option>
+                <option>Exchange</option>
+                <option>Delivery / Shipping</option>
+                <option>Product Information</option>
+                <option>Order</option>
+                <option>Payment</option>
+                <option>Warranty &amp; Repair</option>
+                <option>Store Locator</option>
+                <option>Sales Inquiries</option>
+                <option>Marketing Inquiries</option>
+                <option>Caseback Engraving</option>
+              </select>
+            </p>
+            
+            <p class="col-md-12">
+            <textarea placeholder="{{ section.settings.form_message }}" rows="2" id="{{ formId }}-message" name="contact[body]" required="required">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+            </p>
+
+            <p class="col-md-12 tr">
+                <button type="submit" class="btn">{{ section.settings.form_submit }}</button>
+            </p>
+           </div>
+
+         {%- endform -%}
+      </div>
+    {%- if page_content.size > 0 %}<div class="contact-content col-12 col-md-6">{{ page_content }}</div>{% endif -%}
+  </div>
+</div>
+
+{%- schema -%}
+{
+  "name": "Contact",
+  "tag": "section",
+  "class": "contact",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Address"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "email",
+      "label": "Email"
+    },
+    {
+      "type": "text",
+      "id": "phone",
+      "label": "Phone"
+    },
+    {
+      "type": "textarea",
+      "id": "address",
+      "label": "Address"
+    },
+    {
+        "type": "header",
+        "content": "Contact Form"
+      },
+      {
+        "type": "text",
+        "id": "form_title",
+        "label": "Form Title"
+      },
+      {
+        "type": "text",
+        "id": "form_name",
+        "label": "Form - Name"
+      },
+      {
+        "type": "text",
+        "id": "form_email",
+        "label": "Form - Email"
+      },
+      {
+        "type": "text",
+        "id": "form_phone",
+        "label": "Form - Phone"
+      },
+      {
+        "type": "text",
+        "id": "form_enquiry",
+        "label": "Form - Enquiry"
+      },
+      {
+        "type": "text",
+        "id": "form_message",
+        "label": "Form - Message"
+      },
+      {
+        "type": "text",
+        "id": "form_submit",
+        "label": "Form - Submit"
+      }
+  ]
+}
+{%- endschema -%}

@@ -1,0 +1,105 @@
+{% schema %}
+  {
+	"name": "Carousel",
+    "tag": "section",
+    "class": "tn-main-carousel",
+	"settings": [
+      {
+        "type": "header",
+        "content": "Carousel"
+      }
+  	],
+    "blocks": [
+	{
+      "name": "Slide",
+      "type": "slide",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "heading",
+          "label": "Heading"
+        },
+		{
+          "type": "textarea",
+          "id": "content",
+          "label": "Content"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "video_file",
+          "label": "Video File"
+        },
+		{
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+		{
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text",
+          "default": "Discover More"
+        }
+	  ]
+	}
+	],
+	"presets": [
+      {
+        "name": "01. Carousel",
+        "category": "I. Collections"
+      }
+    ]
+  }
+{% endschema %}
+  
+<div class="tn-carousel">
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'slide' %}
+      <div class="tn-carousel-cell item" {{ block.shopify_attributes }}>
+        
+        {% if block.settings.video_file == blank %}
+        <div class="container">
+          <div class="text">
+            <h3>{{ block.settings.heading | newline_to_br }}</h3>
+            <p>{{ block.settings.content | newline_to_br }}</p>
+            {% if block.settings.button_text != "" %}
+              {{ block.settings.button_text | link_to: block.settings.button_link, class: "btn" }}
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+
+        <div class="img">
+
+          {% if block.settings.video_file != blank %}
+            <video id="main-video" autoplay playsinline muted loop style="pointer-events: none;">
+              <source src="{{ block.settings.video_file }}" type="video/mp4">
+            </video>
+            <script>
+              setTimeout(function(){
+                document.getElementById('main-video').play()
+              }, 200)
+            </script>
+          {% else %}
+            {{ block.settings.image | img_url: '2048x' | img_tag }}
+          {% endif %}
+
+        </div>
+      </div>
+  {% endcase %}
+{% endfor %}
+</div>
+
+<button class="btn-blank btn-arrow-down-circle pa-center pe_none"><i class="toi-arrow-down"></i></button>
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,118 @@
+{% schema %}
+  {
+	"name": "Shop by category",
+    "tag": "section",
+    "class": "tn-shopby-category",
+	"settings": [
+      {
+        "type": "header",
+        "content": "Shop by category"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Sub Heading"
+      },
+      {
+        "type": "text",
+        "id": "viewall",
+        "label": "View all text"
+      }
+  	],
+    "blocks": [
+	{
+      "name": "Item",
+      "type": "slide",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image"
+        },
+        {
+            "type": "url",
+            "id": "button_link",
+            "label": "Url"
+        }
+	  ]
+	}
+	],
+	"presets": [
+      {
+        "name": "07. Shop by category",
+        "category": "I. Collections"
+      }
+    ]
+  }
+{% endschema %}
+  
+<div class="shopby-category">
+    <div class="container">
+        <h3 class="tc heading">{{ section.settings.heading | newline_to_br }}</h3>
+        <div class="row">
+            <div class="col-md-3 flex column fl_center">
+                <h3 class="subheading">{{ section.settings.subheading | newline_to_br }}</h3>
+                <div class="cats-wrap">
+                  <div class="cats">
+                    {% for block in section.blocks %}
+                        {% case block.type %}
+                            {% when 'slide' %}
+                                <div class="cell{% if forloop.first == true %} active{% endif %}">
+                                    <h4>{{ block.settings.heading | newline_to_br }}</h4>
+                                </div>
+                        {% endcase %}
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 right">
+                <div class="carousel shopby-carousel-main" data-flickity='{ "prevNextButtons": true, "pageDots": false }'>
+                    {% for block in section.blocks %}
+                        {% case block.type %}
+                            {% when 'slide' %}
+                                <div class="carousel-cell">
+                                    <div class="img">
+                                        {{ block.settings.img | img_url: '2048x' | img_tag }}
+                                    </div>
+                                </div>
+                        {% endcase %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+
+function shopby_init() {
+    $(document).on( 'click', '.cats .cell', function() {
+        var index = $(this).index();
+        $('.shopby-carousel-main').flickity( 'select', index );
+    })
+
+    $(document).on( 'change.flickity', '.shopby-carousel-main', function(e, index) {
+        $('.cats .cell').removeClass('active')
+        $('.cats .cell').eq(index).addClass('active')
+    });
+}
+
+jQueryInit(shopby_init);
+</script>
+
+</div>
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

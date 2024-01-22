@@ -1,0 +1,71 @@
+{% if section.settings.bg %}
+
+{% comment %}
+  <div class="hero-banner" {%- if section.settings.bg -%} style="background-image: url({{ section.settings.bg | img_url: '2048x'}});"{%- endif -%}>
+    <div class="container tl flex column fl_center h__100">
+        {% if section.settings.topheading != empty %}
+            <h4>{{section.settings.topheading}}</h4>
+        {% endif %}
+        <h1>{{section.settings.heading}}</h1>
+        {% if section.settings.desc != empty %}
+            <p>{{section.settings.desc}}</p>
+        {% endif %}
+    </div>
+</div>
+{% endcomment %}
+<div class="container">
+<div class="hero-banner">
+
+  {%- if section.settings.bg -%}
+    <img class="img-banner desktop-view" src="{{ section.settings.bg | img_url: '2048x'}}" alt="Collection banner">
+  {%- endif -%}
+  {%- if section.settings.tab_bg -%}
+    <img class="img-banner tab-view" src="{{ section.settings.tab_bg | img_url: 'master'}}" alt="Collection banner">
+  {%- endif -%}
+  {%- if section.settings.mobile_bg -%}
+    <img class="img-banner mobile-view" src="{{ section.settings.mobile_bg | img_url: 'master'}}" alt="Collection banner">
+  {%- endif -%}
+  
+</div>
+</div>
+{% endif %}
+
+{%- schema -%}
+{
+  "name": "Hero Banner",
+  "tag": "section",
+  "class": "hero-banner-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "topheading",
+      "label": "Top Heading"
+    },
+    {
+      "type": "text",
+      "id": "desc",
+      "label": "Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "tab_bg",
+      "label": "Tab Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_bg",
+      "label": "Mobile Background Image"
+    }
+  ]
+}
+{%- endschema -%}

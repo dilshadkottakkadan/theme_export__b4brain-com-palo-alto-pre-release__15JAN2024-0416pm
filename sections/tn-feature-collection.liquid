@@ -1,0 +1,84 @@
+{% schema %}
+  {
+	"name": "Featured Collection",
+    "tag": "section",
+    "class": "tn-featured-collection",
+	"settings": [
+        {
+            "type": "header",
+            "content": "Featured Collection"
+        },
+        {
+            "type": "textarea",
+            "id": "heading",
+            "label": "Heading"
+        }
+  	],
+    "blocks": [
+	{
+      "name": "Item",
+      "type": "slide",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+		{
+          "type": "textarea",
+          "id": "desc",
+          "label": "Description"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+	  ]
+	}
+	],
+	"presets": [
+      {
+        "name": "06. Featured Collection",
+        "category": "I. Collections"
+      }
+    ]
+  }
+{% endschema %}
+  
+<div class="tn-section featured-section">
+    <div class="container">
+        <div class="main-text tc">
+            <h3 class="title">{{ section.settings.heading | newline_to_br }}</h3>
+        </div>
+
+        <div class="items row">
+
+            {% for block in section.blocks %}
+                {% case block.type %}
+                    {% when 'slide' %}
+                    <a href="{% if block.settings.link %}{{block.settings.link}}{%else%}#{%endif%}" class="item col-md-4" {{ block.shopify_attributes }}>
+                        <div class="wrap">
+                          {{ block.settings.image | img_url: '2048x' | img_tag }}
+                          <div class="text">
+                              <h4>{{ block.settings.heading | newline_to_br }}</h4>
+                              <p>{{ block.settings.desc | newline_to_br }}</p>
+                          </div>
+                        </div>
+                    </a>
+                {% endcase %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

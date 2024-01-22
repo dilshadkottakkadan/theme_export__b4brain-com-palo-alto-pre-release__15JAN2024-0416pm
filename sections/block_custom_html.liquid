@@ -1,0 +1,203 @@
+<div class="nt_se_{{section.id}} {{section.settings.layout}}">
+  <div class="seo-desktop-view">
+    {% for block in section.blocks %}  
+    {% case block.type %}
+  
+       {% when 'content-block' %} 
+        <div class="seo-content remove-more">
+          {% if block.settings.title_tag == 'h2' %}
+            <h2>{{ block.settings.block_title }}</h2>
+          {%elsif block.settings.title_tag == 'h3' %}
+             <h3>{{ block.settings.block_title }}</h3> 
+          {%else %}
+            <h4>{{ block.settings.block_title }}</h4>
+          {% endif %}
+          {% if block.settings.block_content.size > 700 %}
+            <div class="product-description-short">
+            {{ block.settings.block_content | truncate: 700, ". . . " }}<a class="readmore" href="#">View More &#62;</a>
+            </div>
+            <div class="product-description-full">
+            {{ block.settings.block_content }}
+            <br><a class="readless" href="#">&#60; View Less</a>
+            </div>
+            {% else %}
+              {{ block.settings.block_content }}
+          {% endif %}
+        </div>
+    {% endcase %}
+    {% endfor %}
+  </div>
+  <div class="seo-mobile-view">
+    {% for block in section.blocks %}  
+    {% case block.type %}
+  
+       {% when 'content-block' %} 
+        <div class="seo-content remove-more">
+          {% if block.settings.title_tag == 'h2' %}
+            <h2>{{ block.settings.block_title }}</h2>
+          {%elsif block.settings.title_tag == 'h3' %}
+             <h3>{{ block.settings.block_title }}</h3> 
+          {%else %}
+            <h4>{{ block.settings.block_title }}</h4>
+          {% endif %}
+          {% if block.settings.block_content.size > 250 %}
+            <div class="product-description-short">
+            {{ block.settings.block_content | truncate: 248, ". . . " }}<a class="readmore" href="#">View More &#62;</a>
+            </div>
+            <div class="product-description-full">
+            {{ block.settings.block_content }}
+            <br><a class="readless" href="#">&#60; View Less</a>
+            </div>
+            {% else %}
+              {{ block.settings.block_content }}
+          {% endif %}
+        </div>
+    {% endcase %}
+    {% endfor %}
+  </div>
+</div>
+{%- render 'section_css' -%}
+<style>
+.seo-mobile-view{
+  display:none;
+}
+.seo-content.add-more .product-description-short {
+    display: none;
+}
+.seo-content.add-more .product-description-full {
+    display: block;
+}
+.seo-content.remove-more .product-description-short {
+    display: block;
+}
+.seo-content.remove-more .product-description-full {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+.seo-desktop-view {
+    display: none;
+}
+.seo-mobile-view {
+    display: block;
+}
+}
+</style>
+{%- schema -%}
+  {
+    "name": "Block Custom HTML",
+    "class": "nt_section type_custom_html",
+    "settings": [
+      {
+        "type": "select",
+        "id": "layout",
+        "options": [
+         {
+            "value": "container",
+            "label": "Container"
+         },
+         {
+            "value": "nt_full",
+            "label": "Full Width"
+          }
+        ],
+        "label": "Layout"
+      },
+      {
+        "type": "text",
+        "id": "mg",
+        "label": "Margin",
+        "info":"Margin top, margin right, margin bottom, margin left. If you not use to blank",
+        "default": "50px,,50px,",
+        "placeholder": "50px,,50px,"
+      },
+      {
+        "type": "text",
+        "id": "pd",
+        "label": "Padding",
+        "info":"Padding top, padding right, padding bottom, padding left. If you not use to blank",
+        "placeholder": "50px,,50px,"
+      },
+     {
+        "type": "header",
+        "content": "== Design Mobile Options"
+      },
+      {
+        "type": "text",
+        "id": "mg_mb",
+        "label": "Margin",
+        "placeholder": "50px,,50px,"
+      },
+      {
+        "type": "text",
+        "id": "pd_mb",
+        "label": "Padding",
+        "placeholder": "50px,,50px,"
+      }
+    ],
+    "max_blocks": 8,
+    "blocks": [
+      {
+        "type": "content-block",
+        "name": "Content Block",
+        "settings": [
+          {
+            "type": "select",
+            "id": "title_tag",
+            "label": "Title Tag",
+            "options": [
+              {
+                "value": "h2",
+                "label": "H2"
+              },
+              {
+                "value": "h3",
+                "label": "H3"
+              },
+              {
+                "value": "h4",
+                "label": "H4"
+              }
+            ],
+            "default": "h2"
+          },
+          {
+            "id": "block_title",
+            "type": "text",
+            "label": "Block Title"
+          },
+          {
+            "id": "block_content",
+            "type": "textarea",
+            "label": "Block Content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Block Custom HTML",
+        "category": "V. Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+<script type="text/javascript">
+$( document ).ready(function() {
+    $( ".seo-content" ).each(function() {
+      $(".readmore").click(function(event){
+        event.preventDefault();
+        $(this).parent().closest( ".seo-content" ).addClass( "add-more" );
+        $(this).parent().closest( ".seo-content" ).removeClass( "remove-more" );
+      });
+      $(".readless").click(function(event){
+        event.preventDefault();
+        $(this).parent().closest( ".seo-content" ).addClass( "remove-more" );
+        $(this).parent().closest( ".seo-content" ).removeClass( "add-more" );
+      });
+    });
+});
+</script>

@@ -1,0 +1,156 @@
+<div class="nt_se_{{section.id}} {{section.settings.layout}}">
+  <div class="seo-desktop-view">
+    <div class="code_setting">
+       {% if section.settings.code.size > 900 %}
+              <div class="product-description-short">
+              {{ section.settings.code | truncate: 840, ". . . " }}<a class="readmore" href="#">View More &#62;</a>
+              </div>
+              <div class="product-description-full" style="display:none">
+              {{ section.settings.code }}
+              <a class="readless" href="#">&#60; View Less</a>
+              </div>
+              {% else %}
+                {{ section.settings.code }}
+        {% endif %}
+    </div>
+  </div>
+  <div class="seo-mobile-view">
+    <div class="code_setting">
+       {% if section.settings.code.size > 250 %}
+              <div class="product-description-short-mobile">
+              {{ section.settings.code | truncate: 250, ". . . " }}<a class="readmore-mobile" href="#">View More &#62;</a>
+              </div>
+              <div class="product-description-full-mobile" style="display:none">
+              {{ section.settings.code }}
+              <a class="readless-mobile" href="#">&#60; View Less</a>
+              </div>
+              {% else %}
+                {{ section.settings.code }}
+        {% endif %}
+    </div>
+  </div>
+</div>
+{%- render 'section_css' -%}
+<style>
+.seo-mobile-view{
+  display:none;
+}
+@media only screen and (max-width: 768px) {
+.seo-desktop-view {
+    display: none;
+}
+.seo-mobile-view {
+    display: block;
+}
+}
+</style>
+{%- schema -%}
+  {
+    "name": "New Custom HTML",
+    "class": "nt_section type_custom_html",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "This is an advanced section. Knowledge of web design languages such as HTML, CSS is required."
+      },
+      {
+        "type": "header",
+        "content": "== General Settings"
+      },
+      {
+        "type": "html",
+        "id": "code",
+        "label": "Content",
+        "default": "<div class=\"tc\">This is an advanced section. Knowledge of web design languages such as HTML, CSS is required.</div>"
+      },
+      {
+        "type": "header",
+        "content": "== Design Options"
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "options": [
+         {
+            "value": "container",
+            "label": "Container"
+         },
+         {
+            "value": "nt_full",
+            "label": "Full Width"
+          }
+        ],
+        "label": "Layout"
+      },
+      {
+        "type": "text",
+        "id": "mg",
+        "label": "Margin",
+        "info":"Margin top, margin right, margin bottom, margin left. If you not use to blank",
+        "default": "50px,,50px,",
+        "placeholder": "50px,,50px,"
+      },
+      {
+        "type": "text",
+        "id": "pd",
+        "label": "Padding",
+        "info":"Padding top, padding right, padding bottom, padding left. If you not use to blank",
+        "placeholder": "50px,,50px,"
+      },
+     {
+        "type": "header",
+        "content": "== Design Mobile Options"
+      },
+      {
+        "type": "text",
+        "id": "mg_mb",
+        "label": "Margin",
+        "placeholder": "50px,,50px,"
+      },
+      {
+        "type": "text",
+        "id": "pd_mb",
+        "label": "Padding",
+        "placeholder": "50px,,50px,"
+      }
+    ],
+    "presets": [
+      {
+        "name": "4. New Custom HTML",
+        "category": "V. Text"
+      }
+    ]
+  }
+{% endschema %}
+
+<script type="text/javascript">
+$('.readmore').click(function (event) {
+  event.preventDefault();
+  var descriptionFull = document.querySelector('.product-description-full');
+  descriptionFull.style.display = 'block';
+  var descriptionShort = document.querySelector('.product-description-short');
+  descriptionShort.style.display = 'none';
+});
+$('.readless').click(function (event) {
+  event.preventDefault();
+  var descriptionFull = document.querySelector('.product-description-full');
+  descriptionFull.style.display = 'none';
+  var descriptionShort = document.querySelector('.product-description-short');
+  descriptionShort.style.display = 'block';
+});
+
+$('.readmore-mobile').click(function (event) {
+  event.preventDefault();
+  var descriptionFull = document.querySelector('.product-description-full-mobile');
+  descriptionFull.style.display = 'block';
+  var descriptionShort = document.querySelector('.product-description-short-mobile');
+  descriptionShort.style.display = 'none';
+});
+$('.readless-mobile').click(function (event) {
+  event.preventDefault();
+  var descriptionFull = document.querySelector('.product-description-full-mobile');
+  descriptionFull.style.display = 'none';
+  var descriptionShort = document.querySelector('.product-description-short-mobile');
+  descriptionShort.style.display = 'block';
+});  
+</script>

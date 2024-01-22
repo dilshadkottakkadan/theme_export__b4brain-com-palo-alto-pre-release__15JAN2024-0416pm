@@ -1,0 +1,65 @@
+{% schema %}
+  {
+	"name": "Info Bar",
+    "tag": "section",
+    "class": "tn-infobar",
+	"settings": [
+      {
+        "type": "header",
+        "content": "Responsive Columns"
+      }
+  	],
+    "blocks": [
+	{
+      "name": "Item",
+      "type": "slide",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+		{
+          "type": "text",
+          "id": "subheading",
+          "label": "Sub Heading"
+        },
+        {
+          "type": "text",
+          "id": "image_name",
+          "label": "SVG file name"
+        }
+	  ]
+	}
+	],
+	"presets": [
+      {
+        "name": "02. Info Bar",
+        "category": "I. Collections"
+      }
+    ]
+  }
+{% endschema %}
+  
+<div class="infobar">
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'slide' %}
+      <div class="item" {{ block.shopify_attributes }}>
+        <div class="img">
+          <img src="{{ block.settings.image_name | file_url }}">
+        </div>
+        <div class="text">
+          <h4>{{ block.settings.heading | newline_to_br }}</h4>
+          <h5>{{ block.settings.subheading | newline_to_br }}</h5>
+        </div>
+      </div>
+  {% endcase %}
+{% endfor %}
+</div>
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

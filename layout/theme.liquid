@@ -1,0 +1,266 @@
+{%- capture minify_html -%}
+<!doctype html>
+<html class="no-js" lang="{{ request.locale.iso_code }}">
+<head>
+<meta name="facebook-domain-verification" content="oaaszieiw2ja7x5wxzvix307q5j75p" />
+  
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PBXH4RJ');</script>
+<!-- End Google Tag Manager -->
+  <meta name="google-site-verification" content="wzakrzJcDCfsvu6mtZIrKVinhwTiaR8kSZ0wE2lldUA" />
+
+<!-- Global site tag (gtag.js) - Google Ads: 10933936611 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10933936611"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10933936611');
+</script>
+
+<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '5778188495584340');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=5778188495584340&ev=PageView&noscript=1"
+  />
+</noscript>
+<!-- End Meta Pixel Code -->
+
+<script>{% if first_time_accessed %}
+window.dataLayer.push({
+'page_type': 'purchase',
+'event': 'purchase', / create a custom event in GTM /
+'transaction_id': '{{ order.name || order.order_number }}',
+'totalValue': {{ total_price | money_without_currency | remove:',' }}, // Includes tax & shipping
+'subtotalValue': {{ subtotal_price | money_without_currency | remove:',' }},
+'tax': {{ tax_price | money_without_currency | remove:',' }},
+'shipping': {{ shipping_price | money_without_currency | remove:',' }},
+'currency': '{{ shop.currency }}',
+'payment_type': '{{ order.transactions[0].gateway }}', //optional parameter
+'ecommerce': {
+'checkout_currency': '{{ checkout.currency }}', 
+'value': '{{ checkout.total_price | money_without_currency | remove:',' }}', // order total (price of all products + shipping)
+'tax': '{{ checkout.tax_price | money_without_currency | remove:',' }}', // tax
+'shipping':'{{ checkout.shipping_price | money_without_currency | remove:',' }}', // shipping costs
+'transaction_id': '{{ transactions[0].id }}', // transaction id
+'items': [
+{% for line_item in line_items %}
+{
+'item_name': '{{ line_item.product.title | replace: "'","##@@singleinvertedcomma@@##" }}'.replace("##@@singleinvertedcomma@@##", "'"), 
+'item_id': '{{ line_item.sku || line_item.product.id }}',
+'price': {{ line_item.final_price | money_without_currency | remove:',' }},
+'item_brand': '{{ line_item.vendor }}',
+'quantity': {{ line_item.quantity }},
+'item_variant': '{{ line_item.variant.title }}'
+},
+{% endfor %}
+]
+}
+});
+{% endif %}
+</script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+  <meta name="google-site-verification" content="Auh72HE-0wU8HYwXIroXnVnPBaoE_bj8mr2pFDTwyMQ" />
+  <meta name="theme-color" content="{{ settings.color_primary }}">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <link rel="prefetch" as="document" href="https://{{shop.domain}}">
+  <link rel="dns-prefetch" href="https://cdn.shopify.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+  <link rel="preconnect" href="https://monorail-edge.shopifysvc.com">
+  {%- if settings.font_source == '1' %}
+    {%- assign header_font = settings.fnt_heading -%}
+    {%- assign base_font = settings.fnt_bd -%}
+    {%- assign base_font_bold = base_font | font_modify: 'weight', 'bold' -%}
+    <link rel="dns-prefetch" href="https://fonts.shopifycdn.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.shopify.com" crossorigin>
+    <link rel="preload" as="font" href="{{ header_font | font_url }}" type="font/woff2" crossorigin>
+    <link rel="preload" as="font" href="{{ base_font | font_url }}" type="font/woff2" crossorigin>
+    <link rel="preload" as="font" href="{{ base_font_bold | font_url }}" type="font/woff2" crossorigin>
+  {%- else -%}
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  {%- endif -%}
+  <link rel="preload" as="style" href="{{ 'pre_theme.min.css' | asset_url }}">
+  <link rel="preload" as="style" href="{%- render 'enable_minify' with 'css' ,nameFile:'theme.css' -%}">
+  {%- capture seo_title -%}
+    {%- if template == 'search' and search.performed == true -%}{{ 'general.search.heading' | t: count: search.results_count }}: {{ 'general.search.results_with_count' | t: terms: search.terms, count: search.results_count }}{%- elsif template == 'search.wish' %}{{ 'general.meta.wishlist' | t }}{%- elsif template == 'search.compe' %}{{ 'general.meta.compare' | t }}{%- else -%}{{ page_title }}{%- endif -%}
+    {%- if current_tags -%}{%- assign meta_tags = current_tags | join: ', ' %} | {{ 'general.meta.tags' | t: tags: meta_tags -}}{%- endif -%}
+    {%- if current_page != 1 %} | {{ 'general.meta.page' | t: page: current_page }}{%- endif -%}
+    {%- assign escaped_page_title = page_title | escape -%}
+    {%- unless escaped_page_title contains shop.name %} | {{ shop.name }}{%- endunless -%}
+  {%- endcapture -%}
+  <title>{{ seo_title | strip }}</title>
+  {%- if page_description %}<meta name="description" content="{{ page_description | escape }}">
+  {%- elsif collection.current_type or collection.current_vendor %}<meta name="description" content="{{ shop.description | default: shop.name | escape }}">{% endif -%}
+  {%- if settings.favicon != blank %}<link rel="shortcut icon" type="image/png" href="{{ settings.favicon | img_url: '32x' }}">{% endif -%}
+  {%- if settings.favicon_apple != blank %}<link rel="apple-touch-icon-precomposed" type="image/png" sizes="152x152" href="{{ settings.favicon_apple | img_url: '152x' }}">{% endif -%}
+  {%- liquid 
+    assign t_name = request.page_type
+    assign body_img = settings.body_bg_image
+    render 'social-meta-tags',t_name:t_name
+    render 'head_assets',t_name:t_name
+    capture class_body_theme 
+      render 'class_body_theme',t_name:t_name, body_img:body_img 
+    endcapture -%}
+    {{ 'tornado-icon.css' | asset_url | stylesheet_tag }}
+    {{ 'tornado.css' | asset_url | stylesheet_tag }}
+    {{ 'tornado-responsive.css' | asset_url | stylesheet_tag }}
+    {{ content_for_header }}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+    <script>
+      function jQueryInit(fn) {
+          if (window.jQuery) {
+              fn()
+          } else {
+              setTimeout(function(){
+                  jQueryInit(fn)
+              }, 100)
+          }
+      }
+
+  $( document ).ready(function() {
+    $( ".coupon-list .coupon" ).each(function() {
+    $( this ).find(".apply-code").click(function(){
+    var p = $( this ).siblings(".coupon-code").text();
+    $( ".coupon" ).removeClass("test");
+    $( this ).parent().addClass("test");
+    $('#couponcode').val(p);
+    });
+  });
+  $('input#couponcode').blur(function()
+{
+      if( !this.value ) {
+            $( ".coupon" ).removeClass("test");
+      }
+});
+});
+
+    $(window).on('load', function() {
+  
+$.get("https://ipapi.co/json/", function(response) {
+  
+  var country = response.country;
+  if (country == "IQ") {
+    $(".product-info span.price del").hide();
+  $(".product-info span.price ins").hide();
+  $(".iraq-display").show();
+    $(".product-info span.price .persontage-offer").hide();
+  }else{
+  $(".iraq-display").hide();
+  $(".product-info span.price del").show();
+  $(".product-info span.price ins").show();
+     $(".product-info span.price .persontage-offer").show();
+  }
+   
+});
+});
+    </script>
+
+<!-- GSSTART Show variants. Do not change -->
+{% if request.path contains "/products/" %}{% else %}<script  type="text/javascript"> 
+  gsVSCollectionId = {% if collection.id > 1 %} "{{ collection.id }}" {% else %} "0" {% endif %}; gsVSCollectionTags = '{{ current_tags | join: '&' | replace: "'", "\'" }}';  gsCollectionProdCnt = {% if collection.id > 1 %} {{ collection.products_count }} {% else %} 0 {% endif %}  ;			
+  gsCollection = {
+    {% if collection.products %}      {% paginate collection.products by 50 %}        {% for product in collection.products %} {% assign imagescount = product.images | size %}            {% if imagescount > 1 %}             '{{ product.handle }}' : [ 
+                {% for image in product.images  limit:2 %} "{{ image | img_url: '256x' }}", {% endfor %}
+                ],
+            {% endif %}        {% endfor %}      {% endpaginate %}    {% endif %}  };
+</script>  
+
+{% if request.path contains "/products/" %}{% else %}{% if request.path contains "/collections/" %}<script type="text/javascript" src="https://gravity-apps.com/variantmanager/js/shopify/image_swap6634.js?v=886395b296a8a2ace68f16318dbbaf29"></script>{% endif %}{% endif %}{% endif %}
+<!-- Show variants code end. Do not change GSEND -->
+<script>
+window.mlvedaShopCurrency = "{{ shop.currency }}";
+window.shopCurrency = "{{ shop.currency }}";
+window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
+</script>{% include 'swift_core' %} 
+ {% include 'bucks-cc' %}
+            </head>
+<body {{class_body_theme | strip_newlines-}}>
+  
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBXH4RJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  
+  {%- render 'lazypreload' -%}
+  <div id="nt_wrapper">
+    {% if settings.announcement_enable %}
+      <div class="announcement-bar" style="background:{{ settings.announcement_bg_color }}">
+        <p style="color:{{ settings.announcement_text_color }}">{{ settings.announcement_title }}</p>
+<!--         <marquee width="100%" direction="right">
+        <p style="color:{{ settings.announcement_text_color }}">{{ settings.announcement_title }}</p>
+        </marquee> -->
+<!--         <div class="marquee-section">
+    <div class="marquee-div">
+        <div class="marquee">
+        <p style="color:{{ settings.announcement_text_color }}">{{ settings.announcement_title }}</p> <span style="visibility:hidden">MID &bull; MID &bull; MID &bull; MID &bull; MID &bull; MID &bull; END &bull;</span>
+      </div>
+    </div> -->
+</div>
+      </div>
+    {% endif %}
+    {%- render 'header',t_name:t_name -%}
+    <div id="nt_content">{{ content_for_layout }}</div>
+    <footer id="nt_footer" class="bgbl footer-1">{%- section 'footer_top' -%}{%- section 'footer_bot' -%}</footer>
+  </div>
+  {%- render 'div_html',t_name:t_name -%}
+
+<!-- GSSTART Show variants BODY. Do not change -->{% if collection.products %}
+<div class="gsdatacontb" style="display: none !important;">
+  {% paginate collection.products by 50 %}{% for product in collection.products %}{% assign imagescount = product.images | size %}{% if imagescount > 1 %}
+  <div style="display: none !important;" class="gsProductVariants" gsProductHandler="{{ product.handle }}" >{% assign variantImgsUsedStr = "" %} {% assign variantBySizeUsedStr = "" %}{% assign sizeoptionnr = 0 %}
+{% for option in product.options %}{% capture optioncaseins %}{{option | downcase}}{% endcapture %}{% if optioncaseins contains "size" or optioncaseins contains "rösse" or optioncaseins contains "المقاس" or optioncaseins contains "oko" or optioncaseins contains "eden" or optioncaseins contains "größe" or optioncaseins contains "éret" or optioncaseins contains "ozmiar" or optioncaseins contains "torlek" or optioncaseins contains "aille" or optioncaseins contains "aglia" or optioncaseins contains "alla" or optioncaseins contains "amaño" or optioncaseins contains "גודל" or optioncaseins contains "サイズ" or optioncaseins contains "taille" or optioncaseins contains "eggiseno" or optioncaseins contains "aat" or optioncaseins contains "tamanho" or optioncaseins contains "rrelse" or optioncaseins contains "siza" %}{% assign sizeoptionnr = forloop.index %}{% if product.options.size == 1 %}{% endif %}{% if optioncaseins contains "color" or optioncaseins contains "colour" or optioncaseins contains "farge"  %}{% assign sizeoptionnr = 0 %}{% endif %}{% endif %}{% endfor %}
+    {% for variant in product.variants %}{% assign featuredImageSize = variant.featured_image | size %}{% if featuredImageSize > 0  %}{% if variantImgsUsedStr contains "IGNOREGS" %}{% else %}{% assign variantImgsUsedStr = variantImgsUsedStr | append: variant.featured_image %}{% assign canAddVariant = true %}{% if sizeoptionnr == 1 %}{% assign optionCheckVal = ";" | append: variant.option2 | append: variant.option3 | append: ";" %}{% if variantBySizeUsedStr contains optionCheckVal %}{% assign canAddVariant = false %}{% else %}{% assign variantBySizeUsedStr = variantBySizeUsedStr | append: ";" | append: variant.option2 | append: variant.option3 | append: ";" %}{% endif %}{% endif %}
+    {% if sizeoptionnr == 2 %}{% assign optionCheckVal = ";" | append: variant.option1 | append: variant.option3 | append: ";" %}{% if variantBySizeUsedStr contains optionCheckVal %}
+                {% assign canAddVariant = false %}{% else %}{% assign variantBySizeUsedStr = variantBySizeUsedStr | append: ";" | append: variant.option1 | append: variant.option3 | append: ";" %}{% endif %}{% endif %} {% if sizeoptionnr == 3 %}{% assign optionCheckVal = ";" | append: variant.option1 | append: variant.option2 | append: ";" %}{% if variantBySizeUsedStr contains optionCheckVal %}
+                {% assign canAddVariant = false %}{% else %}{% assign variantBySizeUsedStr = variantBySizeUsedStr | append: ";" | append: variant.option1 | append: variant.option2 | append: ";" %}{% endif %}{% endif %} {% if canAddVariant == true %}
+    <p vcontinue="{{ variant.inventory_policy }}" vquantity="{{ variant.inventory_quantity }}" vavailable="{{ variant.available }}" variantpriceid="{{ variant.id }}" originalcompprice='{{ product.compare_at_price_min | money_without_trailing_zeros | escape }}' originalprice='{{ product.price | money_without_trailing_zeros | escape }}' minprice='{{ product.price_min | money_without_trailing_zeros | escape }}' comparePrice='{{ variant.compare_at_price | money_without_trailing_zeros | escape }}' variantPrice='{{ variant.price | money_without_trailing_zeros | escape }}'></p>
+    <p varianttitleid="{{ variant.id }}"  sizeoptionnr="{{ sizeoptionnr }}" optionuidtwo="{{ product.id }}{{ variant.option2 | escape }}" optiontwo="{{ variant.option2 | escape }}" originaltitle="{{ product.title | escape }}" variantTitle="{{ variant.title | escape }}" optionuid="{{ product.id }}{{ variant.option1 | escape }}"></p>
+       <span variantid="{{ variant.id }}" imgwidth="{{ variant.featured_image.width }}" imgheight="{{ variant.featured_image.height }}" gsvariantimage="{{ variant.featured_image | img_url: '256x' }}"></span>
+    {% endif %}{% endif %}{% endif %}{% endfor %}
+  </div>{% endif %}{% endfor %}{% endpaginate %}{% endif %}
+  {% if collection.products %}
+        <div style="display: none !important;" class="gsProductImages" >
+        {% paginate collection.products by 50 %}{% for product in collection.products %} {% assign imagescount = product.images | size %}{% if imagescount > 1 %}{% for image in product.images  limit:1 %}
+                                        <span gsProductHandle="{{ product.handle }}" firstImage="{{ image | img_url: '256x' }}"></span>
+                                {% endfor %}{% endif %}{% endfor %}{% endpaginate %}
+  </div>
+  </div>
+    {% endif %} <!-- Show variants code end BODY. Do not change GSEND --> 
+    {{ 'tornado.js' | asset_url | script_tag }}
+ {% include 'mlveda-currencies-switcher' %}{% include 'mlveda-currencies' %}{% include 'mlveda-flag' %}{% include 'mlveda-currencies-style' %}
+
+
+{{ '//cdn.shopify.com/s/files/1/0194/1736/6592/t/1/assets/booster-page-speed-optimizer.js?23' | script_tag }}
+</body> 
+</html>
+
+{%- endcapture -%}
+{% if page_title != 'Challenge' and template != 'customers/addresses' %}
+    {{- minify_html | strip_newlines | replace: '	','' | replace: '    ','' | replace: '  ',' ' | replace: 'window.ShopifyPay.sheetStyleSheetUrl', ';window.ShopifyPay.sheetStyleSheetUrl' -}}
+{% else %}
+    {{- minify_html -}}
+{% endif %}

@@ -1,0 +1,3818 @@
+{
+  "current": {
+    "announcement_enable": true,
+    "announcement_title": "Free Shipping to UAE, KSA, Qatar, and Kuwait",
+    "announcement_bg_color": "#ffffff",
+    "announcement_text_color": "#000000",
+    "general_layout": "cus",
+    "cus_w_bd": 1340,
+    "body_bg": "#fff",
+    "body_bg_image": "",
+    "body_bg_repeat": "default",
+    "body_bg_size": "default",
+    "body_bg_attachment": "default",
+    "body_bg_position": "default",
+    "home_keywords": "Tornado Watches, buy watches online uae, buy luxury watches online, mens watches in dubai, top mens watches in dubai, buy mens luxury watches online, buy watches for men online UAE, buy mens watches online uae, best watch for men dubai, online luxury watch store UAE",
+    "shop_author": "APV",
+    "global_acc": "",
+    "use_rtl": false,
+    "backtop": "3",
+    "backtop_des": "1",
+    "prevent_copying": false,
+    "falling_snow": false,
+    "catalog_mode": false,
+    "enable_toolbar": false,
+    "enable_new_pp": false,
+    "enable_pro_pr_pp": false,
+    "enable_ck_pp": false,
+    "enable_age_pp": false,
+    "enable_salse_pp": false,
+    "enable_salse_pp_mb": false,
+    "platform_email": "1",
+    "klaviyo_list_id": "",
+    "ajax_klaviyo": true,
+    "action_mailchimp": "",
+    "ajax_mailChimp": true,
+    "checkbox_mail": false,
+    "link_mail": "",
+    "enable_growave": false,
+    "enable_sub_reCharge": false,
+    "enable_infiniteoptions": true,
+    "wishlist_type": "1",
+    "wis_atc_added": "1",
+    "enable_compe": false,
+    "app_review": "1",
+    "label_settings": "rectangular",
+    "use_sale_label": true,
+    "label_sale_style": "2",
+    "use_sold_out_label": true,
+    "use_new_label": false,
+    "new_day_added": 10,
+    "c_1": "",
+    "c_2": "",
+    "c_3": "",
+    "c_4": "",
+    "timezone": "",
+    "enable_meta": true,
+    "enable_tag": true,
+    "filter_price_list": "$7-$50, $50-$150, $150-$500",
+    "logo_svg": "logo.svg",
+    "logo": "shopify:\/\/shop_images\/bmax_png.png",
+    "logo_retina": "",
+    "logo_width": 135,
+    "logos": "",
+    "logos_retina": "",
+    "logos_width": 100,
+    "logo_mb": "",
+    "logo_mb_retina": "",
+    "logo_mb_width": 100,
+    "logo_tr_svg": "",
+    "logo_tr": "",
+    "logo_tr_retina": "",
+    "logo_tr_width": 100,
+    "h_banner": false,
+    "h_topbar": false,
+    "full_header": true,
+    "sticky_header": true,
+    "scroll_header": false,
+    "header_design": "3",
+    "h_transparent": false,
+    "h_tr_top": false,
+    "h_navmb": 62,
+    "mb_cat": true,
+    "only_icon": false,
+    "first_cat": false,
+    "h__bgimg": "",
+    "bgnav": "#ffffff",
+    "opnav": 100,
+    "clnav": "#222222",
+    "bgnavst": "#ffffff",
+    "opnavst": 100,
+    "clnavst": "#222222",
+    "bgnavtr": "#000000",
+    "opnavtr": 40,
+    "clnavtr": "#ffffff",
+    "h_icon": "iccl",
+    "show_search": false,
+    "show_wis": true,
+    "show_acc": true,
+    "cart_des": "1",
+    "bg_hc": "#000000",
+    "cl_hc": "#ffffff",
+    "dark": true,
+    "dark_cl2": "#545c74",
+    "btnt4_style": "1",
+    "cl_bd_text": "#878787",
+    "color_primary": "#d1811a",
+    "cl_hd": "#222",
+    "cl_se_tt": "#222",
+    "cl_se_subtt": "#878787",
+    "ld_bar": "#00badb",
+    "cl_sale": "#ff4e00",
+    "cl_new": "#109533",
+    "cl_sold_out": "#999",
+    "clpr_tt": "#222",
+    "clpr_price": "#696969",
+    "clpr_price_sale": "#ec0101",
+    "clpr_price_goc": "#878787",
+    "atw_btn": "#fff",
+    "bgqv_btn": "#222222",
+    "qv_btn": "#222",
+    "bgqv_btn_hover": "#222",
+    "qv_btn_hover": "#fff",
+    "bgatc_btn": "#fff",
+    "atc_btn": "#222",
+    "bgatc_btn_hover": "#222",
+    "atc_btn_hover": "#fff",
+    "bgatc_pg": "#56cfe1",
+    "atc_pg": "#fff",
+    "bgatc_pg_hover": "#222",
+    "atc_pg_hover": "#fff",
+    "bgck_btn": "#000",
+    "ck_btn": "#fff",
+    "bgck_btn_hover": "#222",
+    "ck_btn_hover": "#fff",
+    "cl_tooltip": "#383838",
+    "cl_tooltip_txt": "#fff",
+    "cl_lazyload": "#56cfe1",
+    "bg_lazyload": "#f5f5f5",
+    "use_cus_lz": false,
+    "cus_lz": "",
+    "size_cus_lz": 60,
+    "font_source": "1",
+    "fnt_bd": "poppins_n4",
+    "fnt_heading": "poppins_n4",
+    "fnt_sub_tt": "poppins_n4",
+    "fnt_bd2": "Poppins",
+    "fnt_heading2": "Poppins",
+    "fnt_sub_tt2": "Libre Baskerville",
+    "size_bd_text": 14,
+    "fw_bd": 400,
+    "bd_line_height": 1.7,
+    "hd_letter_spacing": 0,
+    "fw_hd": 600,
+    "hd_line_height": 1.4,
+    "ls_hd": 0,
+    "fs_nav": 14,
+    "fw_nav": 400,
+    "ls_nav": 0,
+    "size_se_tt": 24,
+    "fw_se_tt": 600,
+    "lh_se_tt": 0,
+    "ls_se_tt": 0,
+    "size_se_tt_mb": 24,
+    "fw_se_tt_mb": 600,
+    "lh_se_tt_mb": 0,
+    "ls_se_tt_mb": 0,
+    "size_se_stt": 14,
+    "fw_se_stt": 400,
+    "lh_se_stt": 0,
+    "ls_se_stt": 0,
+    "size_se_stt_mb": 14,
+    "fw_se_stt_mb": 400,
+    "lh_se_stt_mb": 0,
+    "ls_se_stt_mb": 0,
+    "txt_tr_pr": "capitalize",
+    "size_pr": 14,
+    "size_price_pr": 14,
+    "fw_pr": 500,
+    "ls_pr": 0,
+    "space_pr": 15,
+    "shop_layout": "full",
+    "shop_des": "default",
+    "cat_des": "1",
+    "shop_sidebar": "left",
+    "shop_size_sidebar": "1",
+    "use_hidden_cat": false,
+    "space_sidebar": 30,
+    "ajax_shop": true,
+    "ajax_scroll_top": false,
+    "show_column_switch": true,
+    "show_list_switch": false,
+    "default_list_view": false,
+    "sort_enable": true,
+    "cat_sticky": true,
+    "show_pr_sub": true,
+    "show_des_sub": true,
+    "shop_filters": true,
+    "pop_style": "nt_pop_sidebar",
+    "type_filters": "2",
+    "logic_filter": "1",
+    "auto_hide_ofsock": false,
+    "show_hide_ofsock": false,
+    "pr_layout": "default",
+    "design_products": "1",
+    "size_img_pr": "3",
+    "nav_img_pr": "medium",
+    "use_sticky_des": false,
+    "main_click": "zoom",
+    "zoom_tp": "2",
+    "pswp_tp": "light",
+    "show_zoom_img": true,
+    "des_pr_design": "1",
+    "des_pr_layout": "1",
+    "pr_sidebar": "none",
+    "pr_sidebar_full": false,
+    "pr_size_sidebar": "2",
+    "pr_curent": "3",
+    "fbt_pos": "1",
+    "show_first_img": false,
+    "use_vimg": true,
+    "sticky_atc": false,
+    "social_pr": true,
+    "enable_vlooping": true,
+    "use_fimg": true,
+    "color_ck": "Color",
+    "use_clicking_vimg": true,
+    "enable_his": true,
+    "pr_incoming_mess": false,
+    "date_in": "3",
+    "remove_sold_out": false,
+    "use_notify_me": true,
+    "breadcrumb_pr": true,
+    "back_next_pr": false,
+    "ratio_img_main": "ratio_imgtrue",
+    "img_size_main": "nt_contain",
+    "img_pos_main": "8",
+    "ratio_img_thumb": "ratio_imgtrue",
+    "img_size_thumb": "nt_cover",
+    "img_pos_thumb": "8",
+    "share_source": "2",
+    "use_quickview": true,
+    "type_qv": "2",
+    "use_pr_rating": false,
+    "hide_btns": false,
+    "bordered_grid2": "2",
+    "des_btns_pr": "2",
+    "sw_limit": false,
+    "price_format": "1",
+    "show_pr_img": "2",
+    "hover_img": "2",
+    "pr_overlay": 10,
+    "use_quickshop": true,
+    "use_buy_qs": true,
+    "swatch_design": "2",
+    "style_color": "2",
+    "swatch_style": "1",
+    "swatch_size": "medium",
+    "show_pr_color": false,
+    "show_color_type": "1",
+    "pr_swatch_setting": "1",
+    "swatch_home_size": "small",
+    "swatch_style_settings": "rounded",
+    "show_pr_size": false,
+    "show_size_type": "1",
+    "size_ck": "",
+    "min_qty": "0",
+    "edit_item": "0",
+    "use_cart_cd": false,
+    "cart_unit": "hrs",
+    "cart_time": 60,
+    "cart_pos": "side",
+    "after_action_atc": "3",
+    "search_pos": "canvas",
+    "ajax_search": true,
+    "filter_type_search": false,
+    "only_search_prs": true,
+    "unavailable_prs": "last",
+    "prefix": "none",
+    "show_search_suggest": true,
+    "search_prs_suggest": "",
+    "blog_layout": "default",
+    "blog_sidebar": "none",
+    "blog_size_sidebar": "2",
+    "blog_slider": true,
+    "lr_enable": true,
+    "use_privacy_policy": false,
+    "privacy_policy_link": "",
+    "login_side": true,
+    "checkout_url": "",
+    "growave_social_login": false,
+    "free_ship_pr": "",
+    "shipconfetti": true,
+    "gift_wrap_pr": "",
+    "link_ship": "",
+    "link_conditions": "",
+    "ship_calc_df_country": "United States",
+    "map": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3154.8939060848147!2d144.81158271584684!3d-37.74563313792195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65fa6debeb781%3A0xe1d23f5d1759961e!2s184%20Main%20Rd%20E%2C%20St%20Albans%20VIC%203021%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1618277125252!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>",
+    "show_map": false,
+    "show_locale_selector": false,
+    "lang_pos": "0",
+    "show_multiple_currencies": false,
+    "auto_currency": false,
+    "currency_type": "2",
+    "flag_currency": true,
+    "size_currency": "sm",
+    "currency_pos": "1",
+    "supported_currencies": "AED - AED | EUR - EUR | USD - USD | GBP - GBP| SEK -SEK | INR - INR | KWD - KWD | SAR - SAR",
+    "currency_format": "money_with_currency_format",
+    "round_currency": false,
+    "notify_currency": true,
+    "mess_currency": "All charges are billed in {{ currency }}. While the content of your cart is currently displayed in <span class=\"selected-currency\"><\/span>, the checkout will use {{ currency }} at the most current exchange rate.",
+    "hover_currency": true,
+    "custom_css": false,
+    "global_css": "",
+    "desktop_css": "",
+    "tablet_mobile_css": "",
+    "tablet_css": "",
+    "mobile_css": "",
+    "custom_js": false,
+    "share_image": "",
+    "share_facebook": true,
+    "share_twitter": false,
+    "share_pinterest": false,
+    "share_tumblr": false,
+    "share_email": false,
+    "share_telegram": false,
+    "share_whatsapp": false,
+    "social_facebook_link": "https:\/\/www.facebook.com\/thetornadoworld",
+    "social_twitter_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/tornadowatches\/?hl=en",
+    "social_dribbble_link": "",
+    "social_linkedin_link": "",
+    "social_pinterest_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_behance_link": "",
+    "social_soundcloud_link": "",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "favicon_apple": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#272b34",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#1c2028",
+    "checkout_heading_font": "Raleway",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#d1811a",
+    "checkout_button_color": "#d1811a",
+    "checkout_error_color": "#e32c2b",
+    "color_ship_bar": "#95bf47",
+    "color_btn_now_text": "#fff",
+    "color_btn_ck_text": "#fff",
+    "timezones": "America\/Los_Angeles",
+    "color_btn_qv": "#383838",
+    "border_color_tab": "#f76b6a",
+    "font_heading": "poppins_n4",
+    "sale_cl": "#ec0101",
+    "mlvedaACS_messageContent": "<<shop.name>> process all orders in <<shop.currency>>. While the content of your cart is currently displayed in <<shop.selected_currency>>, you will checkout using <<shop.currency>> at the most current exchange rate.",
+    "mlvedaACS_positionTop": "10px",
+    "font_body_text": "poppins_n4",
+    "color_btn_vc": "#2d2d2d",
+    "mlvedaACS_defaultCurrency": "USD",
+    "color_new": "#56cfd9",
+    "mlvedaACS_messageBackgroundColor": "inherit",
+    "mlvedaACS_position": "top_with_right",
+    "mlvedaACS_enable": false,
+    "mlvedaACS_supportedCurrencies": "AED QAR SAR KWD INR USD",
+    "color_sold_out": "#999",
+    "color_sign_up": "#f76b6a",
+    "color_mbnav": "#f76b6a",
+    "mlvedaACS_autoSwitch": true,
+    "fnt_sub_title": "libre_baskerville_i4",
+    "color_add_sticky_text": "#fff",
+    "mlvedaACS_isCustomized": true,
+    "color_btn_add": "#f76b6a",
+    "color_tooltip": "#383838",
+    "color_ship": "#f76b6a",
+    "body_line_height": 1.2,
+    "show_inline_t4css": true,
+    "color_btn_qv_text": "#fff",
+    "hide_currency": false,
+    "enable_pro_pp": false,
+    "mlvedaACS_roundDecimal": true,
+    "titles_line_height": 1.4,
+    "show_custom_js": false,
+    "color_sale_50": "#ff4e00",
+    "mlvedaACS_os2": false,
+    "upsell_cart": "",
+    "mlvedaACS_positionRight": "10px",
+    "color_tooltip_text": "#fff",
+    "mlvedaACS_roundDecimalValue": 1,
+    "mlvedaACS_backgroundColor": "#ffffff",
+    "color_btn_add_text": "#fff",
+    "mlvedaACS_textHoverColor": "inherit",
+    "img_pos_nav": "8",
+    "mlvedaACS_borderLineColor": "inherit",
+    "color_btn_vc_text": "#fff",
+    "color_vernav_text": "#fff",
+    "show_custom_css": false,
+    "color_sign_up_text": "#fff",
+    "color_backtop_text": "#fff",
+    "size_text_h6": 12,
+    "size_text_h5": 16,
+    "size_text_h4": 18,
+    "img_size_nav": "nt_cover",
+    "fv_txtcolor": "#ffffff",
+    "size_text_h3": 22,
+    "size_text_h2": 24,
+    "size_text_h1": 28,
+    "color_btn_ck": "#f76b6a",
+    "use_eq_nav_height": false,
+    "operation_days": "Mon:1700-2100,Tue:1700-2100,Wed:1700-2200,Thu:1700-2200,Fri:1700-2300,Sat:1200-2300,Sun:1200-2100",
+    "color_lazyload": "#f5f5f5",
+    "color_vernav": "#f76b6a",
+    "img_ratio_thumb": "ratio_nt",
+    "mlvedaACS_positionLeft": "10px",
+    "color_add_page": "#f76b6a",
+    "color_input_new": "#333333",
+    "favicon_animation": "pop",
+    "mlvedaACS_currencyFormat": "money_with_currency_format",
+    "mlvedaACS_displayFlag": true,
+    "color_btn_slider_text": "#fff",
+    "color_add_sticky": "#f76b6a",
+    "color_threshold_bar": "#ff4b4b",
+    "color_btn_slider": "#f76b6a",
+    "fv_bgcolor": "#56cfe1",
+    "use_eq_thumb_height": false,
+    "color_secondary": "#1b1919",
+    "mlvedaACS_borderLook": true,
+    "img_ratio_nav": "ratio_nt",
+    "mlvedaACS_textColor": "inherit",
+    "mlvedaACS_flagStyle": "circle",
+    "mlvedaACS_isMessageDisplay": true,
+    "size_heading": 36,
+    "mlvedaACS_messageColor": "inherit",
+    "color_backtop": "#f76b6a",
+    "color_price_sale": "#ec0101",
+    "remove_currency": false,
+    "color_sale": "#ff4e00",
+    "color_add_page_text": "#fff",
+    "color_mbnav_text": "#fff",
+    "enable_import": true,
+    "show_back_next_pr": true,
+    "sup_currency": false,
+    "color_btn_now": "#000",
+    "mlvedaACS_positionBottom": "10px",
+    "color_body_text": "#555555",
+    "size_body_text": 14.5,
+    "mlvedaACS_hideDecimal": false,
+    "mlvedaACS_hoverBackgroundColor": "inherit",
+    "fv_counter": false,
+    "sections": {
+      "footer_top": {
+        "type": "footer_top",
+        "blocks": {
+          "1581507835369": {
+            "type": "mail",
+            "settings": {
+              "newl_des": "3",
+              "btn_icon": false,
+              "title": "Get our latest news and special sales",
+              "sub_title": "You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.",
+              "source": "1",
+              "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
+              "height": 30,
+              "order": "1",
+              "cl": "12",
+              "cl_tb": "12",
+              "cl_mb": "12"
+            }
+          },
+          "a8646295-fba6-4815-8284-a9d048eea0f0": {
+            "type": "logo",
+            "settings": {
+              "align": "tl_md",
+              "align_mb": "tl",
+              "logo_width": 180,
+              "title": "",
+              "content": "",
+              "social_mode": "3",
+              "order": "1",
+              "cl": "4",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
+          },
+          "1581507824602": {
+            "type": "menu",
+            "settings": {
+              "title": "Help & Info",
+              "menu": "footer",
+              "order": "1",
+              "cl": "2",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
+          },
+          "1581507828337": {
+            "type": "menu",
+            "settings": {
+              "title": "My Account",
+              "menu": "my-account",
+              "order": "1",
+              "cl": "15",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
+          },
+          "1581507819652": {
+            "type": "logo",
+            "settings": {
+              "align": "tl_md",
+              "align_mb": "tl",
+              "logo_width": 160,
+              "title": "Contact",
+              "content": "<!-- <p>\n   <i class=\"pegk pe-7s-map-marker\">\n    <\/i>\n    <span>\n        21, clover way \nHemel Hempstead \n        <br>\n    <\/span>\n    <span class=\"pl__30\">\n        Hp1 3ea Hertfordshire, UK\n        <br>\n    <\/span>\n<\/p> \n<p>\n    <i class=\"pegk pe-7s-call\">\n    <\/i>\n    <span>\n        +44 7448 564494\n    <\/span>\n<\/p> -->\n<p class=\"\">\n    <i class=\"pegk pe-7s-mail\">\n    <\/i>\n    <span>\n        <a href=\"mailto:info@tornado.store\">\n            info@tornado.store\n        <\/a>\n    <\/span>\n<\/p>",
+              "social_mode": "1",
+              "order": "1",
+              "cl": "3",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
+          }
+        },
+        "block_order": [
+          "1581507835369",
+          "a8646295-fba6-4815-8284-a9d048eea0f0",
+          "1581507824602",
+          "1581507828337",
+          "1581507819652"
+        ],
+        "settings": {
+          "sticky": false,
+          "accordions": true,
+          "border": false,
+          "bd_cl": "#ededed",
+          "cl_h": "#222222",
+          "cl": "#878787",
+          "cl_a": "#878787",
+          "cl_hover": "#56cfe1",
+          "cl_ip": "#878787",
+          "bd_ip": "#878787",
+          "cl_btn": "#222222",
+          "cl_txt": "#ffffff",
+          "bg": "#f6f6f8",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll",
+          "bg_pos": "center center",
+          "cl_overlay": "#000000",
+          "cl_opacity": 0
+        }
+      },
+      "contact-view-more": {
+        "type": "contact-view-more",
+        "settings": {
+          "code": "<h1>Best Watch for Men Dubai<\/h1>\nWelcome to Tornado Store's Contact Us page! We value your feedback, inquiries, and suggestions, and we are here to provide you with the assistance you need. Whether you have a question about our products, an issue with your order, or simply want to share your thoughts, we are ready to listen and help. We strive to offer the best customer service experience, and this page will guide you on how to reach us.\n<h2>Our Customer Support Team<\/h2>At Tornado Store, we have a dedicated and friendly customer support team that is committed to providing you with excellent service. Our knowledgeable representatives are always ready to assist you with any questions or concerns you may have. They are well-versed in our products, policies, and procedures and are here to ensure your experience with us is smooth and enjoyable.\n<h2>Contact Methods<\/h2>\nWe offer multiple contact methods for your convenience. You can choose the one that suits you best:\n\nContact Form: If you prefer to reach us electronically, our contact form is an easy way to get in touch. Simply visit our website, navigate to the Contact Us page, and fill out the form with your name, email address, and message. Please provide the  detail as possible so that we can assist you effectively. Once you submit the form, our team will promptly review your inquiry and get back to you via email.\nEmail: You can also reach us directly via email. If you have a general inquiry or need assistance, please send an email to our customer support team at support@tornado.store. Our team will respond to your email as soon as possible, usually within 24 hours on business days.\nPhone: For urgent matters or if you prefer to speak with a representative, we encourage you to give us a call. Our customer support hotline is available during business hours, Monday to Friday, from 9:00 AM to 5:00 PM (local time). Please note that our phone lines may be busy during peak times, but rest assured, we value your call and will make every effort to assist you promptly. You can find our phone number on the Contact Us page of our website.\n<h2>Connect With Us on Social Media<\/h2>\nStay updated with the latest news, promotions, and product releases by following us on social media. We are active on popular platforms such as Facebook, Twitter, and Instagram. By connecting with us, you'll be part of our online community and have the opportunity to engage with other customers and share your experiences. We also use social media to announce special offers and exclusive discounts, so make sure to keep an eye on our profiles.\n<h3>Your Feedback Matters<\/h3>\nAt Tornado Store, we are continuously striving to improve our products and services. Your feedback is invaluable to us, and we appreciate your time in providing it. Whether you have suggestions for product enhancements, compliments, or any other feedback related to the best watch for men Dubai or top mens watches in Dubai, we are eager to hear from you. Your input helps us enhance our offerings and ensures that we continue to meet and exceed your expectations.\nWe thank you for choosing Tornado Store and look forward to assisting you with any inquiries or feedback you may have. Contact us today, and let us help you find the perfect watch and provide you with exceptional service.",
+          "layout": "container",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "header_3": {
+        "type": "header_3",
+        "blocks": {
+          "38a4b64f-ee47-4554-88ec-0721fa2537da": {
+            "type": "simple",
+            "disabled": true,
+            "settings": {
+              "title": "Account",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "las la-user",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "b2722e23-2025-454d-898c-10b0bb5a14b1": {
+            "type": "simple",
+            "disabled": true,
+            "settings": {
+              "title": "Wishlist",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "las la-heart",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "ee4af877-0620-4f28-af0d-7873d7e7402d": {
+            "type": "simple",
+            "disabled": true,
+            "settings": {
+              "title": "Cart",
+              "url": "\/cart",
+              "open_link": "_self",
+              "icon": "las la-shopping-bag",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "dropdown_QjNEYM": {
+            "type": "dropdown",
+            "settings": {
+              "title": "Watches",
+              "url": "",
+              "open_link": "_self",
+              "menu": "watches",
+              "icon": "lar la-clock",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": false,
+              "pos": "right"
+            }
+          }
+        },
+        "block_order": [
+          "38a4b64f-ee47-4554-88ec-0721fa2537da",
+          "b2722e23-2025-454d-898c-10b0bb5a14b1",
+          "ee4af877-0620-4f28-af0d-7873d7e7402d",
+          "dropdown_QjNEYM"
+        ],
+        "settings": {
+          "height": 70,
+          "arrow": false,
+          "align": "tr",
+          "hover": "hover_side_up"
+        }
+      },
+      "wis_heading": {
+        "type": "wis_heading",
+        "blocks": {
+          "wis_heading-0": {
+            "type": "2",
+            "settings": {
+              "text": "<p>View your wishlist products<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "wis_heading-0"
+        ],
+        "settings": {
+          "parallax": false,
+          "color": "#000",
+          "overlay": 54,
+          "padding": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "sea_heading": {
+        "type": "sea_heading",
+        "blocks": {
+          "sea_heading-0": {
+            "type": "1",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "sea_heading-0"
+        ],
+        "settings": {
+          "parallax": false,
+          "color": "#000000",
+          "overlay": 54,
+          "padding": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "cat_shop": {
+        "type": "cat_shop",
+        "blocks": {
+          "1585708473928": {
+            "type": "cat",
+            "settings": {
+              "collection": "",
+              "icon": ""
+            }
+          },
+          "1585708487707": {
+            "type": "cat",
+            "settings": {
+              "collection": "",
+              "icon": ""
+            }
+          },
+          "1585708576212": {
+            "type": "cat",
+            "settings": {
+              "collection": "",
+              "icon": ""
+            }
+          },
+          "1585708497192": {
+            "type": "cat",
+            "settings": {
+              "collection": "",
+              "icon": ""
+            }
+          },
+          "1585708590448": {
+            "type": "cat",
+            "settings": {
+              "collection": "",
+              "icon": ""
+            }
+          },
+          "1585708599819": {
+            "type": "cat",
+            "settings": {
+              "collection": "",
+              "icon": ""
+            }
+          },
+          "1585708606287": {
+            "type": "cat",
+            "settings": {
+              "collection": "",
+              "icon": ""
+            }
+          },
+          "1585708650045": {
+            "type": "cat",
+            "settings": {
+              "collection": "",
+              "icon": ""
+            }
+          },
+          "1585708658170": {
+            "type": "cat",
+            "settings": {
+              "collection": "",
+              "icon": ""
+            }
+          },
+          "1585708665193": {
+            "type": "cat",
+            "settings": {
+              "collection": "",
+              "icon": ""
+            }
+          },
+          "1585708676694": {
+            "type": "cat",
+            "settings": {
+              "collection": "",
+              "icon": ""
+            }
+          }
+        },
+        "block_order": [
+          "1585708473928",
+          "1585708487707",
+          "1585708576212",
+          "1585708497192",
+          "1585708590448",
+          "1585708599819",
+          "1585708606287",
+          "1585708650045",
+          "1585708658170",
+          "1585708665193",
+          "1585708676694"
+        ],
+        "settings": {
+          "shown": false,
+          "source": "1",
+          "sort": "date_reversed"
+        }
+      },
+      "blog-heading": {
+        "type": "blog-heading",
+        "blocks": {
+          "blog-heading-1": {
+            "type": "2",
+            "settings": {
+            }
+          },
+          "blog-heading-0": {
+            "type": "1",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "blog-heading-0",
+          "blog-heading-1"
+        ],
+        "settings": {
+          "shown": true,
+          "image": "",
+          "parallax": false,
+          "color": "#000",
+          "overlay": 54,
+          "padding": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "165553809799af96fd": {
+        "type": "instafeed",
+        "settings": {
+          "heading_size": 20,
+          "feed_width": 100,
+          "html_area": ""
+        }
+      },
+      "footer_bot": {
+        "type": "footer_bot",
+        "blocks": {
+          "1581507860120": {
+            "type": "copy",
+            "settings": {
+              "text": "Copyright © [year] Tornado. All Rights Reserved. Powered by <a href=\"https:\/\/www.webcastle.ae\/\" target=\"_blank\">Webcastle<\/a>"
+            }
+          },
+          "1581507855652": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "menu": ""
+            }
+          },
+          "d62205a8-4ce2-4d64-9b1e-6f185ed534fc": {
+            "type": "payment",
+            "settings": {
+              "source": "1",
+              "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
+              "height": 30
+            }
+          }
+        },
+        "block_order": [
+          "1581507860120",
+          "1581507855652",
+          "d62205a8-4ce2-4d64-9b1e-6f185ed534fc"
+        ],
+        "settings": {
+          "layout": "6",
+          "bg": "#ffffff",
+          "cl": "#878787",
+          "cl_a": "#878787",
+          "cl_hover": "#56cfe1"
+        }
+      },
+      "sales_popup": {
+        "type": "sales_popup",
+        "settings": {
+          "collection_id": "",
+          "limit": 20,
+          "index": false,
+          "product": false,
+          "collection": false,
+          "article": false,
+          "blog": false,
+          "cart": false,
+          "page": false,
+          "pp_type": "2",
+          "start_time": 5,
+          "start_time_unit": "1000",
+          "stay_time": 10,
+          "stay_time_unit": "1000",
+          "show_cl": true,
+          "show_qv": true,
+          "list_user": "Nathan (California) | Alex (Texas) | Henry (New York) | Kiti (Ohio) | Daniel (Washington) | Hau (California) | Van (Ohio) | Sara (Montana)  | Kate (Georgia)",
+          "show_time": true,
+          "list_time": "4 hours ago | 2 hours ago | 45 minutes ago | 1 day ago | 8 hours ago | 10 hours ago | 25 minutes ago | 2 day ago | 5 hours ago | 40 minutes ago",
+          "show_verify": true,
+          "des": "1",
+          "pp_ani": "anislideInUp",
+          "txt1": "purchased",
+          "txt2": "Verified"
+        }
+      },
+      "wishlist_page": {
+        "type": "wishlist_page",
+        "blocks": {
+          "wishlist_page-0": {
+            "type": "btn",
+            "settings": {
+              "title": "Return To Shop",
+              "style": "primary tu"
+            }
+          }
+        },
+        "block_order": [
+          "wishlist_page-0"
+        ],
+        "settings": {
+          "shop_layout": "default",
+          "show_col_switch": true,
+          "limit": 12,
+          "space": 30,
+          "use_pagination": "default",
+          "use_bar_lm": true,
+          "btn_rd": true,
+          "btn_style": "default",
+          "col_pr": "3",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8"
+        }
+      },
+      "contact": {
+        "type": "contact",
+        "settings": {
+          "title": "Contact Info",
+          "email": "info@tornado.store",
+          "phone": "",
+          "address": "",
+          "form_title": "Get In Touch",
+          "form_name": "Full name*",
+          "form_email": "Email*",
+          "form_phone": "Phone number*",
+          "form_enquiry": "Enquiry on*",
+          "form_message": "Message*",
+          "form_submit": "Send Message"
+        }
+      },
+      "pr_summary": {
+        "type": "pr_summary",
+        "blocks": {
+          "pr_summary-0": {
+            "type": "title",
+            "settings": {
+              "size": 22
+            }
+          },
+          "7fa1e5b3-8569-4eb3-94bd-a0b0051b88c0": {
+            "type": "sold",
+            "settings": {
+              "icon": "1",
+              "icon_name": "fire",
+              "fade": true,
+              "mins": 5,
+              "maxs": 25,
+              "mint": 3,
+              "maxt": 24,
+              "text": "[sold] sold in last [hour] hours"
+            }
+          },
+          "pr_summary-1": {
+            "type": "pricereview",
+            "settings": {
+              "price": "1",
+              "rating": false
+            }
+          },
+          "pr_summary-5": {
+            "type": "meta",
+            "settings": {
+              "show_pr_vendor": false,
+              "show_sku": true,
+              "show_available": true,
+              "show_category_product": false,
+              "show_tag_product": false
+            }
+          },
+          "pr_summary-2": {
+            "type": "des",
+            "settings": {
+              "des": "2",
+              "page": "",
+              "length": 31,
+              "readm": false,
+              "readm_txt": "Read more"
+            }
+          },
+          "1af03ca2-505f-4d01-9c91-824173b2e6ec": {
+            "type": "html",
+            "disabled": true,
+            "settings": {
+              "html": "<div class=\"gift-label\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0641\/0705\/3297\/files\/GIFT-BOX-TORNADO-VALENTINE-2023-1.jpg?v=1676003811\">\n<div class=\"gift-inner\">\n<span>Surprise Gift<\/span> \n<p>Tornado Gift Box<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "pr_summary-3": {
+            "type": "frm",
+            "settings": {
+              "ani": "none",
+              "time": 6,
+              "btn_des": "3",
+              "btn_txt": "3",
+              "swatch_design": "2",
+              "style_color": "1",
+              "swatch_style": "2",
+              "swatch_size": "large",
+              "show_qty": true,
+              "btn_atc_full": true,
+              "enable_payment_btn": false
+            }
+          },
+          "a300783b-30d9-40e4-9b5b-3b61b080dd70": {
+            "type": "size",
+            "disabled": true,
+            "settings": {
+              "size_chart": "3",
+              "pos_sizeg": "1",
+              "sc_type": "2",
+              "page": "",
+              "size_ck": "",
+              "delivery": false,
+              "page_dr": "",
+              "ask": false
+            }
+          },
+          "39124779-6dfe-4913-85f4-4c6f2c1b72d9": {
+            "type": "services",
+            "settings": {
+              "img1_txt": "FREE SHIPPING",
+              "button_link_1": "shopify:\/\/collections",
+              "img2_txt": "EASY\nRETURNS",
+              "button_link_2": "shopify:\/\/collections\/chronograph",
+              "img3_txt": "SECURE SHOPPING\nGUARANTEE",
+              "button_link_3": "shopify:\/\/pages\/contact",
+              "img4_txt": "24 MONTH\nWARRANTY",
+              "button_link_4": "shopify:\/\/blogs\/news",
+              "img5_txt": "",
+              "button_link_5": "shopify:\/\/collections\/all"
+            }
+          }
+        },
+        "block_order": [
+          "pr_summary-0",
+          "7fa1e5b3-8569-4eb3-94bd-a0b0051b88c0",
+          "pr_summary-1",
+          "pr_summary-5",
+          "pr_summary-2",
+          "1af03ca2-505f-4d01-9c91-824173b2e6ec",
+          "pr_summary-3",
+          "a300783b-30d9-40e4-9b5b-3b61b080dd70",
+          "39124779-6dfe-4913-85f4-4c6f2c1b72d9"
+        ],
+        "settings": {
+        }
+      },
+      "1652856651f13332b3": {
+        "type": "tn-category-slider",
+        "blocks": {
+          "f7038786-c5e0-4c81-9851-d6dfd033ac8c": {
+            "type": "slide",
+            "settings": {
+              "heading": "Silver Case",
+              "button_link": "shopify:\/\/collections\/silver-case"
+            }
+          },
+          "ccba3a08-fe8b-47c4-82b2-34aa5bf46a30": {
+            "type": "slide",
+            "settings": {
+              "heading": "Curved Design",
+              "button_link": "shopify:\/\/collections\/curved-design"
+            }
+          },
+          "97268e86-f9c5-4251-ae0b-1023b1811132": {
+            "type": "slide",
+            "settings": {
+              "heading": "Gold Case",
+              "button_link": "shopify:\/\/collections\/gold-case"
+            }
+          },
+          "ef3bcb69-7eb9-4388-abcf-6579bb347272": {
+            "type": "slide",
+            "settings": {
+              "heading": "Timzee Scientific",
+              "button_link": "shopify:\/\/collections\/timzee-scientific"
+            }
+          },
+          "19ced3e5-eeea-4177-924e-26c927e11846": {
+            "type": "slide",
+            "settings": {
+              "heading": "Black Dial",
+              "button_link": "shopify:\/\/collections\/black-dial"
+            }
+          }
+        },
+        "block_order": [
+          "f7038786-c5e0-4c81-9851-d6dfd033ac8c",
+          "ccba3a08-fe8b-47c4-82b2-34aa5bf46a30",
+          "97268e86-f9c5-4251-ae0b-1023b1811132",
+          "ef3bcb69-7eb9-4388-abcf-6579bb347272",
+          "19ced3e5-eeea-4177-924e-26c927e11846"
+        ],
+        "disabled": true,
+        "settings": {
+          "heading": "SHOP BY CATEGORY",
+          "subheading": "Choose a Category",
+          "viewall": "View All"
+        }
+      },
+      "compare_page": {
+        "type": "compare_page",
+        "blocks": {
+          "compare_page-4": {
+            "type": "btn",
+            "settings": {
+              "title": "Return To Shop",
+              "style": "primary tu"
+            }
+          },
+          "b86e1029-5b26-47df-b97b-869ff9f19d60": {
+            "type": "variants",
+            "settings": {
+              "title": "size"
+            }
+          },
+          "compare_page-0": {
+            "type": "basic",
+            "settings": {
+            }
+          },
+          "compare_page-1": {
+            "type": "availability",
+            "settings": {
+              "title": "Availability"
+            }
+          },
+          "compare_page-2": {
+            "type": "vendor",
+            "settings": {
+              "title": "Vendor"
+            }
+          },
+          "compare_page-3": {
+            "type": "variants",
+            "settings": {
+              "title": "Color"
+            }
+          }
+        },
+        "block_order": [
+          "compare_page-0",
+          "compare_page-1",
+          "compare_page-2",
+          "compare_page-3",
+          "b86e1029-5b26-47df-b97b-869ff9f19d60",
+          "compare_page-4"
+        ],
+        "settings": {
+        }
+      },
+      "search_page": {
+        "type": "search_page",
+        "settings": {
+          "shop_layout": "default",
+          "shop_des": "default",
+          "show_col_switch": true,
+          "limit": 12,
+          "space": 30,
+          "use_pagination": "default",
+          "use_bar_lm": true,
+          "btn_rd": true,
+          "btn_style": "default",
+          "col_pr": "3",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8"
+        }
+      },
+      "article-heading": {
+        "type": "article-heading",
+        "blocks": {
+          "article-heading-2": {
+            "type": "3",
+            "settings": {
+            }
+          },
+          "article-heading-0": {
+            "type": "1",
+            "settings": {
+            }
+          },
+          "article-heading-1": {
+            "type": "2",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "article-heading-0",
+          "article-heading-1",
+          "article-heading-2"
+        ],
+        "settings": {
+          "shown": true,
+          "image": "",
+          "use_specify_image": true,
+          "parallax": true,
+          "color": "#000",
+          "overlay": 54,
+          "padding": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "collection_page": {
+        "type": "collection_page",
+        "settings": {
+          "limit": 10,
+          "space": 30,
+          "use_pagination": "default",
+          "use_bar_lm": false,
+          "col_pr": "3",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "use_cdt": true,
+          "round_cd": false,
+          "cdt_des": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "layout": "default",
+          "hoverz": true,
+          "cat_design": "1",
+          "cat_space": "30",
+          "display_type": "all",
+          "sort": "date_reversed",
+          "col": "4",
+          "col_md": "3",
+          "col_mb": "6",
+          "pr_txt": "products",
+          "use_eq_height": true,
+          "image_ratio": "ratio1_1"
+        }
+      },
+      "us_heading": {
+        "type": "us_heading",
+        "blocks": {
+          "us_heading-1": {
+            "type": "2",
+            "settings": {
+              "text": "<p>Follow your passion, and sucess will follow you<\/p>"
+            }
+          },
+          "us_heading-0": {
+            "type": "1",
+            "settings": {
+              "title": "ABOUT US"
+            }
+          }
+        },
+        "block_order": [
+          "us_heading-0",
+          "us_heading-1"
+        ],
+        "settings": {
+          "parallax": false,
+          "color": "#000000",
+          "overlay": 54,
+          "padding": 50,
+          "paddingmb": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "cat_heading": {
+        "type": "cat_heading",
+        "blocks": {
+          "cat_heading-1": {
+            "type": "2",
+            "settings": {
+            }
+          },
+          "cat_heading-0": {
+            "type": "1",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "cat_heading-0",
+          "cat_heading-1"
+        ],
+        "settings": {
+          "shown": false,
+          "use_specify_image": true,
+          "parallax": false,
+          "color": "#000000",
+          "overlay": 54,
+          "padding": 50,
+          "paddingmb": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "1649755547f618d190": {
+        "type": "tn-infobar",
+        "blocks": {
+          "fe2d1c85-52c3-4203-9d04-f8aa5ba3f5a6": {
+            "type": "slide",
+            "settings": {
+              "heading": "Sapphire",
+              "subheading": "Glass material",
+              "image_name": "shaphire.svg"
+            }
+          },
+          "07880f70-f9ee-4722-abc7-051cda1f66bd": {
+            "type": "slide",
+            "settings": {
+              "heading": "316 Steel",
+              "subheading": "Case material",
+              "image_name": "ceramic.svg"
+            }
+          },
+          "1a0e8410-4678-4eaf-8f80-ebc348a68ee5": {
+            "type": "slide",
+            "settings": {
+              "heading": "10ATM",
+              "subheading": "Water resistance",
+              "image_name": "5-bars.svg"
+            }
+          },
+          "03f3a314-33ec-4c6e-96be-9b696232deaf": {
+            "type": "slide",
+            "settings": {
+              "heading": "Japanese",
+              "subheading": "Movement",
+              "image_name": "caliber.svg"
+            }
+          }
+        },
+        "block_order": [
+          "fe2d1c85-52c3-4203-9d04-f8aa5ba3f5a6",
+          "07880f70-f9ee-4722-abc7-051cda1f66bd",
+          "1a0e8410-4678-4eaf-8f80-ebc348a68ee5",
+          "03f3a314-33ec-4c6e-96be-9b696232deaf"
+        ],
+        "settings": {
+        }
+      },
+      "tn-hero-banner-cart": {
+        "type": "tn-hero-banner-cart",
+        "settings": {
+          "heading": "My Cart",
+          "topheading": "",
+          "bg": "shopify:\/\/shop_images\/Hero_Banner.jpg"
+        }
+      },
+      "16509113904c5552e0": {
+        "type": "instagram_feed2",
+        "blocks": {
+          "16509113904c5552e0-0": {
+            "type": "1",
+            "disabled": true,
+            "settings": {
+              "title": "@ FOLLOW US ON INSTAGRAM",
+              "sub_title": "",
+              "sub_font": "2",
+              "style_title": "title_1",
+              "ic_tt": "gem",
+              "show_clpr": false
+            }
+          }
+        },
+        "block_order": [
+          "16509113904c5552e0-0"
+        ],
+        "settings": {
+          "acc2": "",
+          "limit": 12,
+          "open_link": "_blank",
+          "layout_des": "2",
+          "space": "0",
+          "rounded_ins": "0",
+          "col_pr": "2",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": true,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": false,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "image_ratio": "ratio1_1",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "layout": "nt_full",
+          "cl_bg": "#ffffff",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "faqs": {
+        "type": "faqs",
+        "blocks": {
+          "faqs-2": {
+            "type": "faq",
+            "settings": {
+              "title": "Lorem ipsum dolor sit amet",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros congue, eleifend ipsum vitae, cursus massa. Vivamus imperdiet luctus lorem. <\/p>"
+            }
+          },
+          "faqs-3": {
+            "type": "faq",
+            "settings": {
+              "title": "Lorem ipsum dolor sit amet",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros congue, eleifend ipsum vitae, cursus massa. Vivamus imperdiet luctus lorem. <\/p>"
+            }
+          },
+          "faqs-0": {
+            "type": "faq",
+            "settings": {
+              "title": "Lorem ipsum dolor sit amet",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros congue, eleifend ipsum vitae, cursus massa. Vivamus imperdiet luctus lorem. <\/p>"
+            }
+          },
+          "faqs-1": {
+            "type": "faq",
+            "settings": {
+              "title": "Lorem ipsum dolor sit amet",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros congue, eleifend ipsum vitae, cursus massa. Vivamus imperdiet luctus lorem. <\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "faqs-0",
+          "faqs-1",
+          "faqs-2",
+          "faqs-3"
+        ],
+        "settings": {
+          "auto": true
+        }
+      },
+      "promo_pr_pp": {
+        "type": "promo_pr_pp",
+        "settings": {
+          "title": "Wait! Can't find what you're looking for?",
+          "sub_title": "Maybe this will help...",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_2",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "collection_id": "yoga-mat",
+          "limit": 8,
+          "col_pr": "4",
+          "pr_des": "1",
+          "show_vendor": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": false,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "index": true,
+          "product": true,
+          "collection": true,
+          "article": false,
+          "blog": false,
+          "cart": false,
+          "page": false,
+          "day_next": 1
+        }
+      },
+      "164975820774ad402a": {
+        "type": "tn-secondary-carousel",
+        "blocks": {
+          "54e2b68a-0532-44e1-9daf-f80e314ca6bb": {
+            "type": "slide",
+            "settings": {
+              "heading": "<span style=\"font-size: 32px; line-height: 1.5em; display: inline-block;\">Wrist luxury for your hands <\/span>",
+              "top_heading": "Inspired By Excellence",
+              "content": "We work hard to bring uber-designs for those who want a premium experience within their reach. We design classic, sporty watches for young professionals across the globe. Each timepiece is an indulgence that anyone can easily experience without a second thought.",
+              "button_link": "",
+              "button_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "54e2b68a-0532-44e1-9daf-f80e314ca6bb"
+        ],
+        "settings": {
+        }
+      },
+      "about-view-more": {
+        "type": "about-view-more",
+        "settings": {
+          "code": "<h2>Best Place to Buy Watch in Dubai<\/h2>\n<p style=\"text-align: justify;\">Tornado, the best place to buy watch in Dubai, shares emotions and experiences and has grown into one that has consistently raised the benchmark for watches and it continues to grow. Our style-savvy and trend-driven, iconic brand offerings have expressed an exclusive range of experiences that keep fashion fun. We turned the concept into a reality and have come a long way to become one of the leading watch retailers in the region. Tornado marks the UAE’s brand’s perseverance with the widest choice, best value and trusted service.<\/p>\n<p style=\"text-align: justify;\">Our distinctive style has left an indelible mark with the widest range of collections and has been the key differentiator who ensures that all concerns are met satisfactorily. We ensure the best value for any product and deliver a positive reinforcement of the world-renowned brand. The online luxury watch store UAE, makes high-value watches according to famous international watch standards and provides our clients with luxury, style, and quality.\n<\/p>\n<p style=\"text-align: justify;\">We are the best watch retailer in Dubai and offer a combination of sophisticated craftsmanship and classic elegance with unique designs, and exceptional performance at affordable prices.\n<\/p>\n<p style=\"text-align: justify;\">Tornado caters for the best in style and quality in resonance as the best place to buy watch in Dubai, with the ever-changing convenience and easiness to explore more products at a fingertip. Explore the heritage legacy of timepieces and discover the collection of exclusive capsules. An extensive array of opulent collections provide a personalised experience that takes a step into sustainable luxury scouring the globe for leading trends.<\/p>\n<p style=\"text-align: justify;\">Tornado, the online luxury watch store UAE, owns a concept of luxury, and trades in authentic high-end watches that render the feel of personalisation for those who are passionate about luxury watches. We take pride to measure our success, as we continue to stay committed to the most elegant watches.<\/p>\n<p style=\"text-align: justify;\">With thousands of unrivalled selections of timepieces, a passion for quality, authenticity, and craftsmanship brings you exactly what you’ve been searching for. Fueled by global experience in the high-end watch market made us the trusted destination and the best place to buy watch in Dubai for watch enthusiasts worldwide. We are committed to the integrity and innovation of the luxury watch industry and implement a true global quality standard with thousands of pieces from the best brand.<\/p>\n<h2>Buy Premium Watches Online Dubai<\/h2>\n<p style=\"text-align: justify;\">Tornado owns a vision of distributing high-quality watches and strives to be the premier watch store of choice on the web offering unparalleled convenience and excellent value on watches. We have the widest collections of premier and authentic luxury watches at our online luxury watch store UAE, to get the best price possible for your premium choice. Buy luxury watches in Dubai from us, as we assure you with the original timepiece and we will source the watches for you that are found marked in demand throughout the world. The large selection of premium watch stores in Dubai, Tornado, renders the best-in-class service and ensures that you get an authentic watch in its best condition. Here, the watch that you are holding on to has a huge market value, is getting offered to you at the best deal in the world of luxury. When buying luxury watches in Dubai from Tornado, you get the best-priced deals possible and the vast experience in the watches industry brings our passion, expertise and the latest offerings to fashion lovers in the Middle East.<\/p>\n<p style=\"text-align: justify;\">Our exceptional watch collections made us flourish since we started and our expertise in the luxury fashion market carefully reflects uncompromising professionalism. We ensure each product at Tornado <a href=\"https:\/\/tornado.store\/\">online luxury watch store UAE<\/a>, comes with its original functional and aesthetic specifications and is dedicated to facilitating fine timepieces that share a great passion for luxury watches. We are proud to offer a range of price points and also you’ll find plenty of options within our <a href=\"https:\/\/tornado.store\/collections\/all\">watch collections<\/a>.<\/p>",
+          "layout": "container",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "page_meta_ntt4": {
+        "type": "page_meta_ntt4",
+        "settings": {
+        }
+      },
+      "16504901391a069fb4": {
+        "type": "tn-feature-collection",
+        "blocks": {
+          "bfb63dc5-9491-40b3-bc87-ffac2713e8ef": {
+            "type": "slide",
+            "settings": {
+              "heading": "Classic",
+              "desc": "Explore our collections of classic limited edition  watches",
+              "link": "https:\/\/tornado.store\/products\/t8007?variant=42864661889265"
+            }
+          },
+          "89c93960-281c-4d69-aa2b-270c8ccf6fe0": {
+            "type": "slide",
+            "settings": {
+              "heading": "New Arrivals",
+              "desc": "Explore our collections of newly arrived watches",
+              "link": "https:\/\/tornado.store\/products\/t3149b?variant=43087633776881"
+            }
+          },
+          "5fac5d9a-c8d8-4a82-8025-bf817cd86847": {
+            "type": "slide",
+            "settings": {
+              "heading": "Best seller",
+              "desc": "Explore our best seller watch collections",
+              "link": "https:\/\/tornado.store\/products\/tornado-spectra-mens-analog-green-dial-watch-t22002-xsgg?variant=42994088739057"
+            }
+          }
+        },
+        "block_order": [
+          "bfb63dc5-9491-40b3-bc87-ffac2713e8ef",
+          "89c93960-281c-4d69-aa2b-270c8ccf6fe0",
+          "5fac5d9a-c8d8-4a82-8025-bf817cd86847"
+        ],
+        "settings": {
+          "heading": "Featured\nCollections"
+        }
+      },
+      "header_banner": {
+        "type": "header_banner",
+        "settings": {
+          "link": "",
+          "text": "Today deal sale off <strong>70% <\/strong>. End in [countdown].  Hurry Up <i class=\"las la-arrow-right\"><\/i>",
+          "countdown": "2021\/04\/19",
+          "dayx": 0,
+          "effect": "1",
+          "au_time": 1,
+          "height": 41,
+          "fontsize": 12,
+          "cl": "#ffffff",
+          "bg": "#e91e63",
+          "bg_op": 100,
+          "show_close": true,
+          "show_icon": false,
+          "txt_btn": "close",
+          "cl_btn": "#ffffff",
+          "ver": 1,
+          "date": 60
+        }
+      },
+      "toolbar_mobile": {
+        "type": "toolbar_mobile",
+        "blocks": {
+          "toolbar_mobile-0": {
+            "type": "shop",
+            "settings": {
+              "title": "Shop",
+              "link": ""
+            }
+          },
+          "toolbar_mobile-1": {
+            "type": "wish",
+            "settings": {
+              "title": "Wishlist"
+            }
+          },
+          "toolbar_mobile-2": {
+            "type": "cart",
+            "settings": {
+              "title": "Cart"
+            }
+          },
+          "toolbar_mobile-3": {
+            "type": "account",
+            "settings": {
+              "title": "Account"
+            }
+          },
+          "toolbar_mobile-4": {
+            "type": "search",
+            "settings": {
+              "title": "Search"
+            }
+          },
+          "1581912867486": {
+            "type": "filter",
+            "settings": {
+              "title": "Filter"
+            }
+          },
+          "a61e97a4-8967-4623-bff9-833ce2d1e756": {
+            "type": "compe",
+            "settings": {
+              "title": "Compare"
+            }
+          }
+        },
+        "block_order": [
+          "toolbar_mobile-0",
+          "1581912867486",
+          "toolbar_mobile-1",
+          "toolbar_mobile-2",
+          "toolbar_mobile-3",
+          "toolbar_mobile-4",
+          "a61e97a4-8967-4623-bff9-833ce2d1e756"
+        ],
+        "settings": {
+          "show_txt": true
+        }
+      },
+      "contact_heading": {
+        "type": "contact_heading",
+        "blocks": {
+          "contact_heading-0": {
+            "type": "1",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "contact_heading-0"
+        ],
+        "settings": {
+          "parallax": false,
+          "color": "#000000",
+          "overlay": 54,
+          "padding": 50,
+          "paddingmb": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "mb_cat": {
+        "type": "mb_cat",
+        "blocks": {
+          "1585641915360": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Women’s Watches",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "female"
+            }
+          },
+          "1585642130935": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Men’s Watches",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "male"
+            }
+          },
+          "1585642167981": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Watches",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "clock"
+            }
+          },
+          "1585642277236": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Acessories",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "glasses"
+            }
+          },
+          "1585642450066": {
+            "type": "cat",
+            "disabled": true,
+            "settings": {
+              "cat": "new-fashion",
+              "title": "",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "camera-retro"
+            }
+          },
+          "1585642600575": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Shoes",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "shoe-prints"
+            }
+          },
+          "1585642629333": {
+            "type": "cat",
+            "disabled": true,
+            "settings": {
+              "cat": "",
+              "title": "Jewellery",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "gem"
+            }
+          },
+          "1585642644518": {
+            "type": "cat",
+            "disabled": true,
+            "settings": {
+              "cat": "",
+              "title": "T-Shirt",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "tshirt"
+            }
+          },
+          "1585642780875": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Kids Watches",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "child"
+            }
+          },
+          "1585642798957": {
+            "type": "cat",
+            "disabled": true,
+            "settings": {
+              "cat": "",
+              "title": "Decor",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "chair"
+            }
+          }
+        },
+        "block_order": [
+          "1585641915360",
+          "1585642130935",
+          "1585642167981",
+          "1585642277236",
+          "1585642450066",
+          "1585642600575",
+          "1585642629333",
+          "1585642644518",
+          "1585642780875",
+          "1585642798957"
+        ],
+        "settings": {
+        }
+      },
+      "pr_description": {
+        "type": "pr_description",
+        "blocks": {
+          "pr_description-0": {
+            "type": "des",
+            "settings": {
+              "title": "DESCRIPTION"
+            }
+          },
+          "06d927ba-7a33-4eb4-b4a6-71284ef20311": {
+            "type": "spec",
+            "settings": {
+              "title": "THE SPECS"
+            }
+          },
+          "8c562dd4-1c08-4bc7-9034-31180970239f": {
+            "type": "add",
+            "disabled": true,
+            "settings": {
+              "title": "THE SPECS"
+            }
+          },
+          "4d95e393-4d33-499b-b187-9b552e1f4e47": {
+            "type": "html",
+            "disabled": true,
+            "settings": {
+              "title": "SHIPPING & RETURN",
+              "page": ""
+            }
+          },
+          "pr_description-2": {
+            "type": "rivui",
+            "disabled": true,
+            "settings": {
+              "title": "REVIEWS"
+            }
+          }
+        },
+        "block_order": [
+          "pr_description-0",
+          "06d927ba-7a33-4eb4-b4a6-71284ef20311",
+          "8c562dd4-1c08-4bc7-9034-31180970239f",
+          "4d95e393-4d33-499b-b187-9b552e1f4e47",
+          "pr_description-2"
+        ],
+        "settings": {
+          "show": true,
+          "bgcl": "#f6f6f8",
+          "bgclmb": "#ffffff",
+          "des_w": "3",
+          "des_mb": "2",
+          "auto": false,
+          "mg": "30px,,30px,",
+          "mg_mb": "0,,0,"
+        }
+      },
+      "re_upsell": {
+        "type": "re_upsell",
+        "settings": {
+          "title": "You may also like",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_2",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "display_type": "3",
+          "limit": 6,
+          "space": 30,
+          "col_pr": "3",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8"
+        }
+      },
+      "1649754428a9c52dc4": {
+        "type": "carousel",
+        "blocks": {
+          "efd96abd-002e-4595-88bd-2eb281cad6e1": {
+            "type": "slide",
+            "settings": {
+              "heading": "A tradition of craftsmanship",
+              "content": "Embarking upon a voyage through time has always been a journey of passion. We craft watches that go on and on. We design time, that keeps you going. Passion and an eye for detail is employed to create them.",
+              "video_file": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d90c6fbb7e4a4115bd0ae7cf210a3f52.mp4",
+              "button_link": "shopify:\/\/collections\/frontpage",
+              "button_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "efd96abd-002e-4595-88bd-2eb281cad6e1"
+        ],
+        "settings": {
+        }
+      },
+      "tn-about": {
+        "type": "tn-about",
+        "blocks": {
+          "07b1f9b2-922a-47d4-891a-2106a473b069": {
+            "type": "content",
+            "settings": {
+              "heading": "Master Craftsmen",
+              "content": "We are a brand wholly owned, designed, and crafted to perfection, as it is renowned for its master craftsmen. These watchmakers come from a long line of watchmakers, each of whom have in some way or the other left their mark on the art of watchmaking. They work closely with our engineers, designers, and other specialists at every stage of design & development and manufacturing. This has led to many patented technologies that serve to create watches that any wrist will be proud to wear."
+            }
+          },
+          "56913c08-015c-4bbf-b304-f91892c6242d": {
+            "type": "features",
+            "settings": {
+              "img1": "shopify:\/\/shop_images\/Group_12342.png",
+              "img1_txt": "4.8 out of 5 stars",
+              "img1_txt2": "From 106,000 reviews worldwide",
+              "img2": "shopify:\/\/shop_images\/Group_12340.png",
+              "img2_txt": "1 million",
+              "img2_txt2": "Watch enthusiasts use Tornado each month",
+              "img3": "shopify:\/\/shop_images\/Group_12344.png",
+              "img3_txt": "Over 200,000",
+              "img3_txt2": "From 106,000 reviews worldwide",
+              "img4": "shopify:\/\/shop_images\/Group_12348.png",
+              "img4_txt": "More than 1,000",
+              "img4_txt2": "Trustworthy sellers",
+              "img5_txt": "",
+              "img5_txt2": ""
+            }
+          },
+          "2071ede7-86cf-43e9-8574-5e9e3ce8f8e3": {
+            "type": "highlight",
+            "settings": {
+              "title": "For the love of quality",
+              "subheading": "",
+              "content": "Our passion for watches means that we craft every piece to be precise, robust, and able to withstand various conditions. We use only the finest water-resistant quality steel (Majority 316 SS) to make the watches that you can wear with pride. We take great pride in our manufacturing process that’s meticulous at every step – from the machining to the finish, from assembly of the movement case to the dial and bracelet elements.",
+              "image": "shopify:\/\/shop_images\/watch-crop.png"
+            }
+          },
+          "afdbbb71-122a-4b57-91ed-04b7d4985683": {
+            "type": "full_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Image_49.png"
+            }
+          },
+          "24402c46-b363-481c-9bc6-fac7baaf5c8a": {
+            "type": "content",
+            "settings": {
+              "heading": "A Tradition of Craftsmanship",
+              "content": "Tornado is a celebration of all things that man has accomplished in the face of all odds. It is a tribute to the spirit of never giving up, of conquering our limits. This enduring journey has been the inspiration behind our craft and passion.\n\nEach timepiece is characterized by our pursuit of perfection. It is our belief that while we follow the tradition laid down by our master craftsmen we must continue to strive for excellence in innovation. This has allowed us to grow in leaps and bounds in a short span of time."
+            }
+          },
+          "5607c861-98c6-4802-9884-6b0e5c43275e": {
+            "type": "content",
+            "disabled": true,
+            "settings": {
+              "heading": "Best Place to Buy Watch in Dubai",
+              "content": "Tornado, the best place to buy watch in Dubai, shares emotions and experiences and has grown into one that has consistently raised the benchmark for watches and it continues to grow. Our style-savvy and trend-driven, iconic brand offerings have expressed an exclusive range of experiences that keep fashion fun. We turned the concept into a reality and have come a long way to become one of the leading watch retailers in the region. Tornado marks the UAE’s brand’s perseverance with the widest choice, best value and trusted service. \n\nOur distinctive style has left an indelible mark with the widest range of collections and has been the key differentiator who ensures that all concerns are met satisfactorily. We ensure the best value for any product and deliver a positive reinforcement of the world-renowned brand. The online luxury watch store UAE, makes high-value watches according to famous international watch standards and provides our clients with luxury, style, and quality.\n\nWe are the best watch retailer in Dubai and offer a combination of sophisticated craftsmanship and classic elegance with unique designs, and exceptional performance at affordable prices.\n\nTornado caters for the best in style and quality in resonance as the best place to buy watch in Dubai, with the ever-changing convenience and easiness to explore more products at a fingertip. Explore the heritage legacy of timepieces and discover the collection of exclusive capsules. An extensive array of opulent collections provide a personalised experience that takes a step into sustainable luxury scouring the globe for leading trends.\n\nTornado, the online luxury watch store UAE, owns a concept of luxury, and trades in authentic high-end watches that render the feel of personalisation for those who are passionate about luxury watches. We take pride to measure our success, as we continue to stay committed to the most elegant watches.\n\nWith thousands of unrivalled selections of timepieces, a passion for quality, authenticity, and craftsmanship brings you exactly what you’ve been searching for. Fueled by global experience in the high-end watch market made us the trusted destination and the best place to buy watch in Dubai for watch enthusiasts worldwide. We are committed to the integrity and innovation of the luxury watch industry and implement a true global quality standard with thousands of pieces from the best brand. \n\nBuy Premium Watches Online Dubai\n\nTornado owns a vision of distributing high-quality watches and strives to be the premier watch store of choice on the web offering unparalleled convenience and excellent value on watches. We have the widest collections of premier and authentic luxury watches at our online luxury watch store UAE, to get the best price possible for your premium choice. Buy luxury watches in Dubai from us, as we assure you with the original timepiece and we will source the watches for you that are found marked in demand throughout the world. The large selection of premium watch stores in Dubai, Tornado, renders the best-in-class service and ensures that you get an authentic watch in its best condition. Here, the watch that you are holding on to has a huge market value, is getting offered to you at the best deal in the world of luxury. When buying luxury watches in Dubai from Tornado, you get the best-priced deals possible and the vast experience in the watches industry brings our passion, expertise and the latest offerings to fashion lovers in the Middle East.\n\nOur exceptional watch collections made us flourish since we started and our expertise in the luxury fashion market carefully reflects uncompromising professionalism. We ensure each product at Tornado online luxury watch store UAE, comes with its original functional and aesthetic specifications and is dedicated to facilitating fine timepieces that share a great passion for luxury watches. We are proud to offer a range of price points and also you’ll find plenty of options within our collection."
+            }
+          }
+        },
+        "block_order": [
+          "24402c46-b363-481c-9bc6-fac7baaf5c8a",
+          "afdbbb71-122a-4b57-91ed-04b7d4985683",
+          "2071ede7-86cf-43e9-8574-5e9e3ce8f8e3",
+          "07b1f9b2-922a-47d4-891a-2106a473b069",
+          "56913c08-015c-4bbf-b304-f91892c6242d",
+          "5607c861-98c6-4802-9884-6b0e5c43275e"
+        ],
+        "settings": {
+        }
+      },
+      "header_top": {
+        "type": "header_top",
+        "blocks": {
+          "header_top-1": {
+            "type": "text",
+            "settings": {
+              "text": "Free shipping on all orders",
+              "hide": false,
+              "col": "10"
+            }
+          },
+          "header_top-0": {
+            "type": "text",
+            "settings": {
+              "text": "<div class=\"tc\"><a class=\"cg\" href=\"tel:+447448564494\"><i class=\"pegk pe-7s-call\"><\/i> \n  +44 7448 564494<\/a><\/div>",
+              "hide": false,
+              "col": "2"
+            }
+          },
+          "header_top-2": {
+            "type": "cur",
+            "disabled": true,
+            "settings": {
+              "hide": false,
+              "col": "7"
+            }
+          }
+        },
+        "block_order": [
+          "header_top-2",
+          "header_top-1",
+          "header_top-0"
+        ],
+        "settings": {
+          "height": 41,
+          "fontsize": 12,
+          "cl": "#ffffff",
+          "cl_a": "#222222",
+          "cl_cr": "#ec0101",
+          "bg": "#1b1f27",
+          "bg_op": 100,
+          "show_border": false,
+          "bd_cl": "#000000",
+          "cl_tr": "#ffffff",
+          "cl_a_tr": "#ffffff",
+          "cl_cr_tr": "#ec0101",
+          "bg_tr": "#000000",
+          "bg_op_tr": 10,
+          "show_border_tr": false,
+          "bd_cl_tr": "#b3b3b3"
+        }
+      },
+      "faq_heading": {
+        "type": "faq_heading",
+        "blocks": {
+          "faq_heading-0": {
+            "type": "1",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "faq_heading-0"
+        ],
+        "settings": {
+          "parallax": false,
+          "color": "#000",
+          "overlay": 54,
+          "padding": 50,
+          "paddingmb": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "blog-slider": {
+        "type": "blog-slider",
+        "settings": {
+          "blog": "",
+          "limit": 6,
+          "date": "date",
+          "col_pr": "4",
+          "col_pr_tb": "4",
+          "col_pr_mb": "12",
+          "show_au": true,
+          "show_dt": true,
+          "loop": false,
+          "au_time": 0,
+          "au_hover": true,
+          "button": true,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": false,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "cl": "#fff",
+          "cl2": "#878787",
+          "bg": "#000",
+          "overlay": 80,
+          "use_eq_height": true,
+          "image_ratio": "ratio4_3",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "layout": "nt_full"
+        }
+      },
+      "sidebar_shop": {
+        "type": "sidebar_shop",
+        "blocks": {
+          "c799770c-87ae-4746-8aad-a9c3e2b4c0a1": {
+            "type": "category",
+            "settings": {
+              "title": "CATEGORIES",
+              "cat_source": "1",
+              "cat_link_list": "",
+              "count": false
+            }
+          },
+          "ca8ee051-87e0-4b57-b580-243c28c98886": {
+            "type": "color",
+            "settings": {
+              "hidden_block": false,
+              "title": "COLORS",
+              "arra_enter": "Black, Brown, Silver, Gold, Blue",
+              "use_auto_filter_tag": false,
+              "key": "Color"
+            }
+          },
+          "3576e404-e081-48bb-b178-271a037b2ee8": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "SIZES",
+              "arra_enter": "Medium, Large, Small",
+              "use_auto_filter_tag": false,
+              "key": "Size",
+              "style": "ck"
+            }
+          },
+          "539769ba-f8e4-416b-8b0c-63f0854a031d": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "By Other",
+              "arra_enter": "",
+              "use_auto_filter_tag": true,
+              "key": "Price",
+              "style": "df"
+            }
+          }
+        },
+        "block_order": [
+          "c799770c-87ae-4746-8aad-a9c3e2b4c0a1",
+          "ca8ee051-87e0-4b57-b580-243c28c98886",
+          "3576e404-e081-48bb-b178-271a037b2ee8",
+          "539769ba-f8e4-416b-8b0c-63f0854a031d"
+        ],
+        "settings": {
+        }
+      },
+      "page_about_us": {
+        "type": "page_about_us",
+        "blocks": {
+          "page_about_us-0": {
+            "type": "1",
+            "settings": {
+              "title": "COMPANY",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "al": "tc",
+              "cl": "12",
+              "cl_mb": "12"
+            }
+          }
+        },
+        "block_order": [
+          "page_about_us-0"
+        ],
+        "settings": {
+        }
+      },
+      "list_cat_heading": {
+        "type": "list_cat_heading",
+        "settings": {
+          "shown": true,
+          "parallax": false,
+          "color": "#000000",
+          "overlay": 54,
+          "padding": 50,
+          "paddingmb": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "1660108657d9337710": {
+        "type": "custom_html",
+        "disabled": true,
+        "settings": {
+          "code": "<h1>Buy Mens Watches Online UAE<\/h1>\n<p style=\"text-align: justify;\">We strive to make every moment exceptionally classy and that is why Tornado watches can bring on the perfect impact. Here’s your chance to buy luxury watches online Dubai, UAE from our varied collections of timepieces that mean a life beyond the normal wrist watch. With on-point sophistication, these watches breathe a vibe of fresh air of aura into everyday life. You can level up your wardrobe to a classy level with no fuss whatsoever. A walk into this world of style will reveal how our watch experts add a whole new dimension of luxury to every watch that you see. We focus on the experience that credits your charisma flawlessly. Come, buy luxury watches online and own your very own world of classiness and shine far and wide in the corporate world of Dubai. <\/p>\n<h2>Buy Premium Watches from Tornado Watches<\/h2><p style=\"text-align: justify;\">With a mission to illuminate your best moments, and bring on the finest indulgence of luxury in a timepiece, buy luxury watches online from the <a href=\"https:\/\/tornado.store\/collections\/all\">Tornado watch collections<\/a>. Our style editions exhibit a tryst with tradition and contemporary fashion that will please the eye of the uber- perfect crowds, For every timepiece that you choose from the online Tornado watch store, will have a touch of well-acclaimed royalty and a design that is noteworthy. You can choose from these top mens watches in dubai to take forward your impressive strides from the normal ordinary looks to the complete drool-worthy fashion statements. We believe fashion can be uncomplicated when the watch takes an upper hand in your appearance. We have loved every bit of the process of creating, structuring, and bringing forward some of the world class, premium mens watches in Dubai will witness today and forever. We are pretty sure you too will be addicted to our definition of class time.  Apart from the outer style that you see at a glance, we ensure that the functionality and sturdiness of every watch are never compromised. Additionally, our formula for watch quality excellence is something that you experience every moment without a doubt. <\/p>\n<h2>Buy Mens Luxury Watches Online<\/h2>\n<p style=\"text-align: justify;\">Are you looking for the perfect timepiece that promotes your identity? Look no further, as you can visualize supreme finesse of quality and design when you buy mens luxury watches online from <a href=\"https:\/\/tornado.store\/\">Tornado Watches<\/a> - online watch store in Dubai. To make your purchase, you can check through our wide variety of designs, straps, dial case designs, watch stray materials, that suit your style. The beauty of this brand is that we have made luxury tuned in with quality with every timepiece that you choose. Irrespective of your watch preferences, you can be assured that when you come here to buy mens watches online UAE, you won’t stop with just one watch in your wishlist box. In order to enjoy a top notch experience, we have a dedicated team who thinks beyond the watch settings. Today, luxury is magnified with functionality so that your investment in this piece of premium mens accessory is worth your stay in Dubai. <\/p>\n<h2>Reasons To Buy Watch From Tornado Watches<\/h2>\n<p style=\"text-align: justify;\">We don’t you would not stop just at the reasons we have listed for you, however, we love to share our merits with you. This is a timepiece style that is absolutely worth owning for a lifetime.<\/p>\n<h3>High End Timepieces<\/h3><p style=\"text-align: justify;\">We have redefined the simple idea of a timepiece and that is why you will get to own high end timepieces from Tornado.  For those on a quest to buy watches for men online UAE, embark on a pathway that enhances the experience and helps you own a watch that never loses its glam. <\/p>\n<h3>Top Notch Detailing<\/h3>\n<p style=\"text-align: justify;\">This is a collection of timepieces that offer ingenious angles to every cut of the watch. If you are one who believes that power dressing is all about the right accessories, then we are on your same page regarding style. Our meticulous process of craftsmanship offers the best of the styles, and strap cuts, that accentuate the wrist to the next level of poise.<\/p>\n<h3>Beating the Conventional Design<\/h3>\n<p style=\"text-align: justify;\">Take it from us, when we stress that we have made it big, as we love breaking free from the conventional myriad of watch designs. For every watch owner who loves to seize the moment, not just once in a lifetime, we have stocked up the best watch for men Dubai for your quality timepiece pursuit. You would be impressed at the minimalist, yet innovative way we have disrupted the norms for good. Here, it is class like never before. <\/p>",
+          "layout": "container",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "carousel": {
+        "type": "carousel",
+        "blocks": {
+          "706a3b73-4b30-468c-81d0-dfaa56863b21": {
+            "type": "slide",
+            "settings": {
+              "heading": "",
+              "content": "",
+              "video_file": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a670f39fc7584998873e3446231b42d0.mp4",
+              "button_link": "",
+              "button_text": "Discover More"
+            }
+          }
+        },
+        "block_order": [
+          "706a3b73-4b30-468c-81d0-dfaa56863b21"
+        ],
+        "settings": {
+        }
+      },
+      "tn-hero-banner": {
+        "type": "tn-hero-banner",
+        "settings": {
+          "heading": "Contact Us",
+          "topheading": "INSPIRED BY EXCELLENCE",
+          "bg": "shopify:\/\/shop_images\/tornado_web_contact_us.png"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "blocks": {
+          "article-template-1": {
+            "type": "tags",
+            "settings": {
+            }
+          },
+          "article-template-0": {
+            "type": "content",
+            "settings": {
+            }
+          },
+          "article-template-3": {
+            "type": "nav",
+            "settings": {
+            }
+          },
+          "article-template-2": {
+            "type": "social",
+            "settings": {
+              "follow": false,
+              "tooltip": true,
+              "des": "2"
+            }
+          },
+          "article-template-5": {
+            "type": "comments",
+            "settings": {
+            }
+          },
+          "article-template-4": {
+            "type": "related",
+            "settings": {
+              "title": "Related Articles",
+              "t_center": true,
+              "limit": 5,
+              "date": "date",
+              "col_pr": "4",
+              "col_pr_tb": "4",
+              "col_pr_mb": "12",
+              "loop": false,
+              "au_time": 0,
+              "au_hover": true,
+              "button": true,
+              "btn_vi": "2",
+              "btn_owl": "1",
+              "btn_color": "0",
+              "dot": true,
+              "dot_owl": "1",
+              "dot_color": "1",
+              "use_eq_height": true,
+              "image_ratio": "ratio4_3",
+              "image_size": "nt_cover",
+              "image_position": "8"
+            }
+          }
+        },
+        "block_order": [
+          "article-template-0",
+          "article-template-1",
+          "article-template-2",
+          "article-template-3",
+          "article-template-4",
+          "article-template-5"
+        ],
+        "settings": {
+        }
+      },
+      "16504845066db7c477": {
+        "type": "tn-manufacture",
+        "blocks": {
+          "824997b5-4f6b-483d-a890-0d5d4ee61054": {
+            "type": "slide",
+            "settings": {
+              "number": "01",
+              "heading": "Watch design",
+              "desc": "Design and handcraft a stunning watch featuring Sapphire, luminous markers with elegant details creating uniqueness and refined movement backed by a decade long warranty."
+            }
+          },
+          "fee437a4-a49e-4fe4-8689-1d02242504b6": {
+            "type": "slide",
+            "settings": {
+              "number": "02",
+              "heading": "Exterior of the watch",
+              "desc": "Rotating bezel to Crown unto finishing of the strap is completely made by  316 stainless steel for best in style watches."
+            }
+          },
+          "96b9c5cc-0b7a-4acc-8512-021ae379e392": {
+            "type": "slide",
+            "settings": {
+              "number": "03",
+              "heading": "Watch manufacturing",
+              "desc": "High precision and potential in engineering a unique time piece and  assembling with hi-tech equipment’s to offer you the Tornado that lasts more then a decade."
+            }
+          },
+          "a71459ec-2c53-4ac3-80aa-cd7f6fb8f109": {
+            "type": "slide",
+            "settings": {
+              "number": "04",
+              "heading": "Watch assembling",
+              "desc": "Innovative technological adaptions in assembling the precision watches and the  series of stringent tests until it reaches you with assurance of ever lasting time Piece."
+            }
+          }
+        },
+        "block_order": [
+          "824997b5-4f6b-483d-a890-0d5d4ee61054",
+          "fee437a4-a49e-4fe4-8689-1d02242504b6",
+          "96b9c5cc-0b7a-4acc-8512-021ae379e392",
+          "a71459ec-2c53-4ac3-80aa-cd7f6fb8f109"
+        ],
+        "settings": {
+          "heading": "Manufacturing A Watch",
+          "desc": "You don’t believe in the commonplace, and neither do we. We strive for absolute greatness - and our watches are the living illustration of that ideology. Are you ready to make your mark?",
+          "image": "shopify:\/\/shop_images\/T20307-BBBB-2.png",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "cart_upsell": {
+        "type": "cart_upsell",
+        "settings": {
+          "show_section": false,
+          "title": "Complete your cart",
+          "sub_title": "",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "collection": "",
+          "limit": 6,
+          "space_cat": "30",
+          "col_pr": "3",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "sale_countdown": false,
+          "collection_countdown_style": "dark",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8"
+        }
+      },
+      "208bb35a-e7f2-41c9-a57f-1604ac839597": {
+        "type": "new_custom_html",
+        "settings": {
+          "code": "<h1>Buy Mens Watches Online UAE<\/h1>\n<p style=\"text-align: justify;\">We strive to make every moment exceptionally classy and that is why Tornado watches can bring on the perfect impact. Here’s your chance to buy luxury watches online Dubai, UAE from our varied collections of timepieces that mean a life beyond the normal wrist watch. With on-point sophistication, these watches breathe a vibe of fresh air of aura into everyday life. You can level up your wardrobe to a classy level with no fuss whatsoever. A walk into this world of style will reveal how our watch experts add a whole new dimension of luxury to every watch that you see. We focus on the experience that credits your charisma flawlessly. Come, buy luxury watches online and own your very own world of classiness and shine far and wide in the corporate world of Dubai. <\/p>\n<h2>Buy Watches Online UAE<\/h2><p style=\"text-align: justify;\">With a mission to illuminate your best moments, and bring on the finest indulgence of luxury in a timepiece, buy luxury watches online from the <a href=\"https:\/\/tornado.store\/collections\/all\">Tornado watch collections<\/a>. Our style editions exhibit a tryst with tradition and contemporary fashion that will please the eye of the uber- perfect crowds, For every timepiece that you choose from the online Tornado watch store, will have a touch of well-acclaimed royalty and a design that is noteworthy. You can choose from these top mens watches in dubai to take forward your impressive strides from the normal ordinary looks to the complete drool-worthy fashion statements. We believe fashion can be uncomplicated when the watch takes an upper hand in your appearance. We have loved every bit of the process of creating, structuring, and bringing forward some of the world class, premium mens watches in Dubai will witness today and forever. We are pretty sure you too will be addicted to our definition of class time.  Apart from the outer style that you see at a glance, we ensure that the functionality and sturdiness of every watch are never compromised. Additionally, our formula for watch quality excellence is something that you experience every moment without a doubt. <\/p>\n<h2>Buy Mens Luxury Watches Online<\/h2>\n<p style=\"text-align: justify;\">Are you looking for the perfect timepiece that promotes your identity? Look no further, as you can visualize supreme finesse of quality and design when you buy mens luxury watches online from <a href=\"https:\/\/tornado.store\/\">Tornado Watches<\/a> - online watch store in Dubai. To make your purchase, you can check through our wide variety of designs, straps, dial case designs, watch stray materials, that suit your style. The beauty of this brand is that we have made luxury tuned in with quality with every timepiece that you choose. Irrespective of your watch preferences, you can be assured that when you come here to buy mens watches online UAE, you won’t stop with just one watch in your wishlist box. In order to enjoy a top notch experience, we have a dedicated team who thinks beyond the watch settings. Today, luxury is magnified with functionality so that your investment in this piece of premium mens accessory is worth your stay in Dubai. <\/p>\n<h2>Reasons To Buy Watch From Tornado Watches<\/h2>\n<p style=\"text-align: justify;\">Tornado Watches is a well-known name in the watch industry, offering an assorted collection of high-quality and stylish watches for men in Dubai. If you are looking for a high-quality, stylish, and affordable watch, Tornado Watches is an excellent choice. With their commitment to durability, precision, and customer service, you can trust that your watch will provide you with years of reliable performance.<\/p>\n<p><\/p><p style=\"text-align: justify;\">We don’t you would not stop just at the reasons we have listed for you, however, we love to share our merits with you. This is a timepiece style that is absolutely worth owning for a lifetime.<\/p>\n<h3>High End Timepieces<\/h3><p style=\"text-align: justify;\">We have redefined the simple idea of a timepiece and that is why you will get to own high end timepieces from Tornado.  For those on a quest to buy watches for men online UAE, embark on a pathway that enhances the experience and helps you own a watch that never loses its glam. <\/p>\n<h3>Top Notch Detailing<\/h3>\n<p style=\"text-align: justify;\">This is a collection of timepieces that offer ingenious angles to every cut of the watch. If you are one who believes that power dressing is all about the right accessories, then we are on your same page regarding style. Our meticulous process of craftsmanship offers the best of the styles, and strap cuts, that accentuate the wrist to the next level of poise.<\/p>\n<h3>Beating the Conventional Design<\/h3>\n<p style=\"text-align: justify;\">Take it from us, when we stress that we have made it big, as we love breaking free from the conventional myriad of watch designs. For every watch owner who loves to seize the moment, not just once in a lifetime, we have stocked up the best watch for men Dubai for your quality timepiece pursuit. You would be impressed at the minimalist, yet innovative way we have disrupted the norms for good. Here, it is class like never before. <\/p>\n<h3>Versatility<\/h3>\n<p style=\"text-align: justify;\">Tornado watches are versatile and suitable for a variety of events and activities, from formal gatherings to outdoor pursuits. You can find a watch that perfectly reflects your preferences and sense of style owing to the variety of styles, colors, and designs available.<\/p>\n<h3>Warranty<\/h3>\n<p style=\"text-align: justify;\">Tornado Watches offer a comprehensive warranty on their products, providing peace of mind to their customers. With a warranty that covers defects in materials and workmanship, you can trust that your watch will be protected in the event of any issues.<\/p>\n<h3>Durability<\/h3>\n<p style=\"text-align: justify;\">Tornado Watches are synonymous with durability and longevity, making them an ideal choice for those who are looking for a watch that will last for years to come. The watches are crafted with utmost perfection and care from top-notch materials that are resistant to wear and tear.<\/p>\n<h3>Precision<\/h3>\n<p style=\"text-align: justify;\">Tornado Watches are well-known for their precision and accuracy, making them a reliable choice for anyone who needs to keep track of time. The watches are equipped with high-quality quartz movements that are highly accurate and reliable, ensuring that you will always know the time, even when you are on the go.<\/p>\n<h3>Affordable<\/h3>\n<p style=\"text-align: justify;\">Despite their high- quality construction and  swish designs, Tornado Watches are affordably priced, making them an ideal choice for anyone who wants to buy a watch that looks great and performs well, without spending too much money.<\/p>\n<h3>Innovative Technology<\/h3>\n<p style=\"text-align: justify;\">Tornado Watches utilize the cutting-edge technology in their products, including water resistance, anti-reflective coatings, and more, to ensure that you have a watch that not only looks great but also performs well under any circumstances.<\/p>\n<h3>Customer Service<\/h3>\n<p style=\"text-align: justify;\">Tornado Watches are committed to providing the best possible customer service to their customers. Whether you need help choosing the right watch, have a question about a product, or need assistance with a repair, the Tornado Watches team is always on hand to help.<\/p>\n<p style=\"text-align: justify;\">Our collection of luxury watches in Dubai, UAE, is carefully crafted to cater to the discerning tastes of individuals who appreciate the finer things in life. Our timepieces are a symbol of sophistication, style, and elegance that set you apart from the rest. From sleek, modern designs to classic, timeless pieces, we have something for everyone. Whether you’re looking for a gift for a loved one or a special treat for yourself, Tornado watches are the perfect choice. Trust us, owning a Tornado watch is an investment that you won’t regret.<\/p>\n<h2>The Right Place To Buy Your Tornado Watches Online UAE<\/h2>\n<p style=\"text-align: justify;\">Purchasing watches in Dubai, Sharjah, and other locations across the UAE has become effortless and convenient, thanks to the availability of a broad range of options from Tornado that you can access from the comfort of your home. Our website offers you the opportunity to buy watches online Dubai, UAE, featuring a diverse selection of super-functional watches. Each design is accompanied by a unique backstory and innovative features to enable you to select a watch that aligns with your lifestyle and reflects your personality.\n<\/p>\n<p style=\"text-align: justify;\">Tornado has achieved a leadership position in development and innovation by conducting extensive research, development, and testing to ensure the delivery of the best designs. Our watches are renowned for their elegance, comfort, and style, making them the preferred choice of discerning customers.<\/p>",
+          "layout": "container",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "pages_heading": {
+        "type": "pages_heading",
+        "blocks": {
+          "pages_heading-0": {
+            "type": "1",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "pages_heading-0"
+        ],
+        "settings": {
+          "image": "",
+          "parallax": false,
+          "color": "#000",
+          "overlay": 54,
+          "padding": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "1651341724cf93c815": {
+        "type": "featured_collection_owl",
+        "settings": {
+          "title": "Popular Item",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "View All",
+          "style_title": "title_14",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "collection": "all",
+          "limit": 2,
+          "space": 30,
+          "use_pagination": "none",
+          "btn_rd": false,
+          "btn_icon": false,
+          "btn_style": "default",
+          "col_pr": "4",
+          "col_pr_tb": "4",
+          "col_pr_mb": "12",
+          "pr_des": "1",
+          "show_vendor": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": true,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": false,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": true,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_contain",
+          "image_position": "8",
+          "hidden": false,
+          "cp_code": false,
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "shop_des": "default",
+          "art_des": "1",
+          "limit": 5,
+          "space": 40,
+          "use_pagination": "default",
+          "use_bar_lm": true,
+          "btn_rd": true,
+          "btn_style": "default",
+          "date": "date",
+          "col_pr": "6",
+          "col_pr_tb": "6",
+          "col_pr_mb": "12",
+          "show_au": true,
+          "show_dt": true,
+          "show_cm": false,
+          "show_tg": true,
+          "cl": "#fff",
+          "cl2": "#878787",
+          "bg": "#000",
+          "overlay": 90,
+          "des_cnt": "1",
+          "use_eq_height": true,
+          "image_ratio": "ratio4_3",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "source": "0",
+          "count": true
+        }
+      },
+      "164976782079787147": {
+        "type": "tn-product-scroll",
+        "disabled": true,
+        "settings": {
+          "title": "TRENDING",
+          "sub_title": "c",
+          "sub_font": "1",
+          "btn_title": "See all products",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "collection": "frontpage",
+          "limit": 12,
+          "space": 30,
+          "use_pagination": "view-all",
+          "use_bar_lm": true,
+          "btn_rd": true,
+          "btn_icon": false,
+          "btn_style": "default",
+          "col_pr": "3",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "hidden": false,
+          "cp_code": false,
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "blocks": {
+          "cart-template-0": {
+            "type": "price",
+            "settings": {
+            }
+          },
+          "cart-template-1": {
+            "type": "tax",
+            "settings": {
+            }
+          },
+          "cart-template-2": {
+            "type": "agree",
+            "disabled": true,
+            "settings": {
+            }
+          },
+          "cart-template-3": {
+            "type": "btnck",
+            "settings": {
+            }
+          },
+          "cart-template-4": {
+            "type": "btnmr",
+            "disabled": true,
+            "settings": {
+            }
+          },
+          "cart-template-5": {
+            "type": "img",
+            "disabled": true,
+            "settings": {
+              "wimg": 50
+            }
+          },
+          "a8a83f51-76e2-4d97-afb3-3dd4fdae6ca1": {
+            "type": "coupon_text",
+            "settings": {
+              "coupon_note": "",
+              "coupon_title_color": "#ffffff",
+              "coupon_head": "15OFF:15% off on your first order"
+            }
+          },
+          "9114b012-bff0-4685-8de2-ac125640feda": {
+            "type": "btn2",
+            "settings": {
+              "title": "Continue Shopping",
+              "url": "shopify:\/\/collections\/all",
+              "style": "primary tu"
+            }
+          }
+        },
+        "block_order": [
+          "cart-template-0",
+          "cart-template-1",
+          "cart-template-2",
+          "cart-template-3",
+          "cart-template-4",
+          "cart-template-5",
+          "9114b012-bff0-4685-8de2-ac125640feda",
+          "a8a83f51-76e2-4d97-afb3-3dd4fdae6ca1"
+        ],
+        "settings": {
+          "ajax_enable": true,
+          "calc_ship": false,
+          "show_note": false,
+          "show_rates": false,
+          "show_discount": true,
+          "show_gift_wrap": true
+        }
+      },
+      "tn-hero-banner-collection": {
+        "type": "tn-hero-banner-collection",
+        "settings": {
+          "heading": "",
+          "topheading": "",
+          "desc": ""
+        }
+      },
+      "bptf-template": {
+        "type": "bptf-template",
+        "settings": {
+          "ptf_layout": "default",
+          "shop_des": "masonry",
+          "limit": 5,
+          "space": 30,
+          "use_pagination": "default",
+          "use_bar_lm": true,
+          "btn_rd": true,
+          "btn_style": "default",
+          "col_pr": "6",
+          "col_pr_tb": "6",
+          "col_pr_mb": "12",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "source": "1",
+          "count": true
+        }
+      },
+      "nt_custom_color": {
+        "type": "nt_custom_color",
+        "blocks": {
+          "6d32e028-7da8-41fb-b897-8748f89ffc89": {
+            "type": "bg_color",
+            "settings": {
+              "title": "Black + Black",
+              "color_1_c": "#121212",
+              "color_2_c": "#121212",
+              "color_img": false
+            }
+          },
+          "a77ad61b-be60-4fef-ae17-f59ccbd84013": {
+            "type": "bg_color",
+            "settings": {
+              "title": "Black + Gun Metal",
+              "color_1_c": "#121212",
+              "color_2_c": "#979797",
+              "color_img": false
+            }
+          },
+          "4ee6dac2-2a31-4ba9-abc9-2522e43c7615": {
+            "type": "bg_color",
+            "settings": {
+              "title": "Black + Silver",
+              "color_1_c": "#121212",
+              "color_2_c": "#f1f1f1",
+              "color_img": false
+            }
+          },
+          "6f26e5f9-3e5d-4409-b47c-60749fc7e708": {
+            "type": "bg_color",
+            "settings": {
+              "title": "Black + Black Stainless",
+              "color_1_c": "#121212",
+              "color_2_c": "#121212",
+              "color_img": false
+            }
+          },
+          "85506998-70e4-427c-9ebe-66dccbca3b03": {
+            "type": "bg_color",
+            "settings": {
+              "title": "Grey + Gun Metal",
+              "color_1_c": "#3a3a3a",
+              "color_2_c": "#979797",
+              "color_img": false
+            }
+          },
+          "d9cc272a-a521-4196-9c88-6d343769efb0": {
+            "type": "bg_color",
+            "settings": {
+              "title": "Grey + Blue",
+              "color_1_c": "#3a3a3a",
+              "color_2_c": "#2c4168",
+              "color_img": false
+            }
+          },
+          "f953f56e-c26f-48d0-8590-318b28dabb9e": {
+            "type": "bg_color",
+            "settings": {
+              "title": "Multi-color + Gun Metal",
+              "color_1_c": "#3a3a3a",
+              "color_2_c": "#979797",
+              "color_img": false
+            }
+          },
+          "6d718a71-d9ce-4c1b-b104-a7342a299c85": {
+            "type": "bg_color",
+            "settings": {
+              "title": "Multi-color + Black",
+              "color_1_c": "#3a3a3a",
+              "color_2_c": "#979797",
+              "color_img": false
+            }
+          },
+          "ff326234-5bbb-46bd-9482-c5cbe6f2ddcc": {
+            "type": "bg_color",
+            "settings": {
+              "title": "Navy Blue + Gun Metal",
+              "color_1_c": "#21458b",
+              "color_2_c": "#979797",
+              "color_img": false
+            }
+          },
+          "e2b8d42e-8546-44f3-ad9c-32a0f63f2451": {
+            "type": "bg_color",
+            "settings": {
+              "title": "Navy Blue + Silver",
+              "color_1_c": "#21458b",
+              "color_2_c": "#f1f1f1",
+              "color_img": false
+            }
+          },
+          "608f6540-69d1-45f1-8de5-7ffa7f1d3181": {
+            "type": "bg_color",
+            "settings": {
+              "title": "Blue + Gun Metal",
+              "color_1_c": "#2c4168",
+              "color_2_c": "#979797",
+              "color_img": false
+            }
+          },
+          "14c7f047-92ea-41ad-a1ba-e967af380584": {
+            "type": "bg_color",
+            "settings": {
+              "title": "Blue + Silver",
+              "color_1_c": "#2c4168",
+              "color_2_c": "#f1f1f1",
+              "color_img": false
+            }
+          },
+          "5543d3d2-c55a-4de3-abeb-44b4e86e9712": {
+            "type": "bg_color",
+            "settings": {
+              "title": "White + Silver",
+              "color_1_c": "#ffffff",
+              "color_2_c": "#f1f1f1",
+              "color_img": false
+            }
+          },
+          "2b9555db-6cd5-4732-aba4-c6e8e0404d73": {
+            "type": "bg_color",
+            "settings": {
+              "title": "White + Black",
+              "color_1_c": "#ffffff",
+              "color_2_c": "#121212",
+              "color_img": false
+            }
+          },
+          "1f903a39-8f50-4c5d-8773-56fd7970650d": {
+            "type": "bg_color",
+            "settings": {
+              "title": "Silver + Silver",
+              "color_1_c": "#f1f1f1",
+              "color_2_c": "",
+              "color_img": false
+            }
+          }
+        },
+        "block_order": [
+          "6d32e028-7da8-41fb-b897-8748f89ffc89",
+          "a77ad61b-be60-4fef-ae17-f59ccbd84013",
+          "4ee6dac2-2a31-4ba9-abc9-2522e43c7615",
+          "6f26e5f9-3e5d-4409-b47c-60749fc7e708",
+          "85506998-70e4-427c-9ebe-66dccbca3b03",
+          "d9cc272a-a521-4196-9c88-6d343769efb0",
+          "f953f56e-c26f-48d0-8590-318b28dabb9e",
+          "6d718a71-d9ce-4c1b-b104-a7342a299c85",
+          "ff326234-5bbb-46bd-9482-c5cbe6f2ddcc",
+          "e2b8d42e-8546-44f3-ad9c-32a0f63f2451",
+          "608f6540-69d1-45f1-8de5-7ffa7f1d3181",
+          "14c7f047-92ea-41ad-a1ba-e967af380584",
+          "5543d3d2-c55a-4de3-abeb-44b4e86e9712",
+          "2b9555db-6cd5-4732-aba4-c6e8e0404d73",
+          "1f903a39-8f50-4c5d-8773-56fd7970650d"
+        ],
+        "settings": {
+        }
+      },
+      "bptf-heading": {
+        "type": "bptf-heading",
+        "blocks": {
+          "bptf-heading-1": {
+            "type": "2",
+            "settings": {
+            }
+          },
+          "bptf-heading-0": {
+            "type": "1",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "bptf-heading-0",
+          "bptf-heading-1"
+        ],
+        "settings": {
+          "shown": true,
+          "image": "",
+          "parallax": false,
+          "color": "#000",
+          "overlay": 54,
+          "padding": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "aptf-template": {
+        "type": "aptf-template",
+        "blocks": {
+          "aptf-template-4": {
+            "type": "related",
+            "settings": {
+              "title": "Related Portfolio",
+              "t_center": true,
+              "limit": 5,
+              "date": "date",
+              "col_pr": "4",
+              "col_pr_tb": "4",
+              "col_pr_mb": "12",
+              "loop": false,
+              "au_time": 0,
+              "au_hover": true,
+              "button": true,
+              "btn_vi": "2",
+              "btn_owl": "1",
+              "btn_color": "0",
+              "dot": true,
+              "dot_owl": "1",
+              "dot_color": "1",
+              "use_eq_height": false,
+              "image_ratio": "ratio_nt",
+              "image_size": "nt_cover",
+              "image_position": "8"
+            }
+          },
+          "aptf-template-3": {
+            "type": "nav",
+            "settings": {
+            }
+          },
+          "aptf-template-2": {
+            "type": "social",
+            "settings": {
+              "follow": false,
+              "tooltip": true,
+              "des": "2"
+            }
+          },
+          "aptf-template-1": {
+            "type": "infos",
+            "settings": {
+              "cat": true,
+              "author": true,
+              "tags": true
+            }
+          },
+          "aptf-template-0": {
+            "type": "content",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "aptf-template-0",
+          "aptf-template-1",
+          "aptf-template-2",
+          "aptf-template-3",
+          "aptf-template-4"
+        ],
+        "settings": {
+          "ptf_layout": "default"
+        }
+      },
+      "img_meta_ntt4": {
+        "type": "img_meta_ntt4",
+        "settings": {
+        }
+      },
+      "recently_viewed": {
+        "type": "recently_viewed",
+        "settings": {
+          "show": false,
+          "unavailable_prs": "show",
+          "title": "Recently viewed products",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "limit": 6,
+          "sortby": "3",
+          "space": 30,
+          "col_pr": "3",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": false,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8"
+        }
+      },
+      "sticky_atc": {
+        "type": "sticky_atc",
+        "settings": {
+          "mb": true,
+          "ani": "none",
+          "time": 6
+        }
+      },
+      "mb_nav": {
+        "type": "mb_nav",
+        "blocks": {
+          "mb_nav-1": {
+            "type": "menu",
+            "settings": {
+              "title": "Shop",
+              "url": "\/collections\/all?sort_by=price-ascending",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "1585642902196": {
+            "type": "menu",
+            "settings": {
+              "title": "About",
+              "url": "shopify:\/\/pages\/about-us",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "mb_nav-3": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "title": "Watches",
+              "url": "",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "1585642887352": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "title": "Blog",
+              "url": "",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "625c3bc8-d2e7-4e1f-bae9-5f4091ce2b44": {
+            "type": "menu",
+            "settings": {
+              "title": "Cart",
+              "url": "\/cart",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "shopping-cart",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "mb_nav-4": {
+            "type": "wis",
+            "disabled": true,
+            "settings": {
+            }
+          },
+          "mb_nav-5": {
+            "type": "sea",
+            "settings": {
+            }
+          },
+          "mb_nav-6": {
+            "type": "acc",
+            "settings": {
+            }
+          },
+          "cb92b0af-9735-4a29-9e86-4909f6309eb0": {
+            "type": "menu",
+            "settings": {
+              "title": "Contact",
+              "url": "shopify:\/\/pages\/contact",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "mb_nav-7": {
+            "type": "help",
+            "disabled": true,
+            "settings": {
+              "title": "Need help?",
+              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"><\/i>+1 800 123 457<br><!--<i class=\"pegk pe-7s-mail fwb mr__10\"><\/i><a class=\"cg\" href=\"mailto:support@tornado.ae\">support@tornado.ae<\/a>-->"
+            }
+          },
+          "mb_nav-8": {
+            "type": "cur",
+            "settings": {
+            }
+          },
+          "1599620808818": {
+            "type": "lang",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "mb_nav-1",
+          "1585642902196",
+          "mb_nav-3",
+          "1585642887352",
+          "625c3bc8-d2e7-4e1f-bae9-5f4091ce2b44",
+          "mb_nav-4",
+          "mb_nav-5",
+          "mb_nav-6",
+          "cb92b0af-9735-4a29-9e86-4909f6309eb0",
+          "mb_nav-7",
+          "mb_nav-8",
+          "1599620808818"
+        ],
+        "settings": {
+        }
+      },
+      "cart_heading": {
+        "type": "cart_heading",
+        "blocks": {
+          "cart_heading-0": {
+            "type": "1",
+            "settings": {
+              "title": "Shopping cart"
+            }
+          }
+        },
+        "block_order": [
+          "cart_heading-0"
+        ],
+        "settings": {
+          "parallax": false,
+          "color": "#000000",
+          "overlay": 50,
+          "padding": 50,
+          "paddingmb": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "sidebar_shop2": {
+        "type": "sidebar_shop2",
+        "blocks": {
+          "c884754e-c455-4972-8ee2-f3be58afa465": {
+            "type": "category",
+            "disabled": true,
+            "settings": {
+              "title": "CATEGORIES",
+              "cat_source": "1",
+              "cat_link_list": "",
+              "count": false
+            }
+          },
+          "bedd0f8f-0d26-48ec-8c9b-3a6c9bac31cc": {
+            "type": "tag2",
+            "settings": {
+              "hidden_block": false,
+              "count": false,
+              "title": "COLORS",
+              "arra_enter": "Black, Blue, Gun Metal, Silver, White, Multicolor, Multi-color",
+              "style": "tag"
+            }
+          },
+          "sidebar_shop2-3": {
+            "type": "color",
+            "disabled": true,
+            "settings": {
+              "hidden_block": false,
+              "count": false,
+              "title": "COLORS",
+              "key": "Color"
+            }
+          },
+          "sidebar_shop2-2": {
+            "type": "variants",
+            "settings": {
+              "hidden_block": false,
+              "count": false,
+              "title": "SIZES",
+              "key": "Size",
+              "style": "ck"
+            }
+          },
+          "sidebar_shop2-1": {
+            "type": "price",
+            "settings": {
+              "hidden_block": false,
+              "title": "PRICE"
+            }
+          },
+          "0b6e6a3f-4343-4c3a-a173-6fb70df77572": {
+            "type": "variants",
+            "disabled": true,
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "COLORS",
+              "key": "Color",
+              "style": "ck"
+            }
+          },
+          "599f7154-3f61-4c65-b99b-441fa87d8c09": {
+            "type": "tag2",
+            "disabled": true,
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "By Tags List",
+              "arra_enter": "Discount, testone",
+              "style": "ck"
+            }
+          }
+        },
+        "block_order": [
+          "c884754e-c455-4972-8ee2-f3be58afa465",
+          "bedd0f8f-0d26-48ec-8c9b-3a6c9bac31cc",
+          "sidebar_shop2-3",
+          "sidebar_shop2-2",
+          "sidebar_shop2-1",
+          "0b6e6a3f-4343-4c3a-a173-6fb70df77572",
+          "599f7154-3f61-4c65-b99b-441fa87d8c09"
+        ],
+        "settings": {
+        }
+      },
+      "product-video": {
+        "type": "product-video",
+        "settings": {
+          "source": "2",
+          "video_url": "https:\/\/youtu.be\/X-e9V-kFcPg",
+          "file_name": "",
+          "se_height": "full",
+          "use_custom_h": "1",
+          "h_des": "600px",
+          "h_tb": "500px",
+          "h_mb": "350px",
+          "caption_w": "2",
+          "cap_v_pos": 50,
+          "cap_h_pos": 50,
+          "txt_align": "tc",
+          "use_shadow": false,
+          "cl_overlay": "#000000",
+          "cl_opacity": 0,
+          "layout": "nt_full",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "1581508120953": {
+        "type": "instagram_shop",
+        "blocks": {
+          "1581508120953-2": {
+            "type": "img",
+            "settings": {
+              "url": "https:\/\/www.instagram.com\/p\/B9lZEqaHl3M\/"
+            }
+          },
+          "1581508249339": {
+            "type": "pin",
+            "settings": {
+              "pos_t": 39,
+              "pos_l": 39,
+              "cl_pin": "dark",
+              "product": ""
+            }
+          },
+          "1581508120953-0": {
+            "type": "img",
+            "settings": {
+              "url": "https:\/\/www.instagram.com\/p\/B9bG2SvJqhT\/"
+            }
+          },
+          "1581508571978": {
+            "type": "pin",
+            "settings": {
+              "pos_t": 50,
+              "pos_l": 50,
+              "cl_pin": "dark",
+              "product": ""
+            }
+          },
+          "1581508120953-1": {
+            "type": "img",
+            "settings": {
+              "url": "https:\/\/www.instagram.com\/p\/B9Td__AhKVD\/"
+            }
+          },
+          "1581508478366": {
+            "type": "pin",
+            "settings": {
+              "pos_t": 32,
+              "pos_l": 67,
+              "cl_pin": "dark",
+              "product": ""
+            }
+          },
+          "1581508503488": {
+            "type": "pin",
+            "settings": {
+              "pos_t": 98,
+              "pos_l": 44,
+              "cl_pin": "dark",
+              "product": ""
+            }
+          },
+          "1581508120953-3": {
+            "type": "img",
+            "settings": {
+              "url": "https:\/\/www.instagram.com\/p\/B9JEJ__BBDX\/"
+            }
+          },
+          "1581508536038": {
+            "type": "pin",
+            "settings": {
+              "pos_t": 28,
+              "pos_l": 79,
+              "cl_pin": "dark",
+              "product": ""
+            }
+          },
+          "1581508120953-5": {
+            "type": "img",
+            "settings": {
+              "url": "https:\/\/www.instagram.com\/p\/B8-w60LhnmH\/"
+            }
+          },
+          "1581508621940": {
+            "type": "pin",
+            "settings": {
+              "pos_t": 66,
+              "pos_l": 48,
+              "cl_pin": "dark",
+              "product": ""
+            }
+          }
+        },
+        "block_order": [
+          "1581508120953-2",
+          "1581508249339",
+          "1581508120953-0",
+          "1581508571978",
+          "1581508120953-1",
+          "1581508478366",
+          "1581508503488",
+          "1581508120953-3",
+          "1581508536038",
+          "1581508120953-5",
+          "1581508621940"
+        ],
+        "disabled": true,
+        "settings": {
+          "title": "Tornado on Instagram",
+          "sub_title": "@tornadowatches",
+          "sub_font": "1",
+          "style_title": "title_1",
+          "ic_tt": "instagram",
+          "show_clpr": false,
+          "layout_des": "2",
+          "open_link": "_self",
+          "space": "15",
+          "rounded_ins": "0",
+          "col_pr": "15",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "loop": false,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": false,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": true,
+          "image_ratio": "ratio1_1",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "hidden": false,
+          "cp_code": false,
+          "layout": "nt_full",
+          "cl_bg": "#ffffff",
+          "mg": "",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "nt_filter2": {
+        "type": "nt_filter2",
+        "blocks": {
+          "nt_filter2-0": {
+            "type": "title",
+            "settings": {
+              "hidden_block": false,
+              "title": "By Title"
+            }
+          },
+          "nt_filter2-1": {
+            "type": "price",
+            "settings": {
+              "hidden_block": false,
+              "title": "By Price"
+            }
+          },
+          "nt_filter2-2": {
+            "type": "variants",
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "By Size",
+              "key": "Size",
+              "style": "ck"
+            }
+          },
+          "nt_filter2-3": {
+            "type": "color",
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "By Color",
+              "key": "Color"
+            }
+          },
+          "nt_filter2-4": {
+            "type": "vendor",
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "By Vendor",
+              "style": "ck"
+            }
+          },
+          "nt_filter2-5": {
+            "type": "available",
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "Product status"
+            }
+          }
+        },
+        "block_order": [
+          "nt_filter2-0",
+          "nt_filter2-1",
+          "nt_filter2-2",
+          "nt_filter2-3",
+          "nt_filter2-4",
+          "nt_filter2-5"
+        ],
+        "settings": {
+        }
+      },
+      "aptf-heading": {
+        "type": "aptf-heading",
+        "blocks": {
+          "aptf-heading-1": {
+            "type": "2",
+            "settings": {
+            }
+          },
+          "aptf-heading-0": {
+            "type": "1",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "aptf-heading-0",
+          "aptf-heading-1"
+        ],
+        "settings": {
+          "shown": true,
+          "image": "",
+          "use_specify_image": true,
+          "parallax": false,
+          "color": "#000",
+          "overlay": 54,
+          "padding": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "nt_filter": {
+        "type": "nt_filter",
+        "blocks": {
+          "1581913174211": {
+            "type": "brand",
+            "settings": {
+              "hidden_block": false,
+              "title": "By Brand",
+              "arra_enter": "",
+              "use_auto_filter_tag": true,
+              "key": "Vendor",
+              "style": "ck"
+            }
+          },
+          "1581909372373": {
+            "type": "color",
+            "settings": {
+              "hidden_block": false,
+              "title": "By Color",
+              "arra_enter": "Red,White,Brown,Blue, Black, Green, Grey, Sliver,Pink",
+              "use_auto_filter_tag": true,
+              "key": "Color"
+            }
+          },
+          "1581914074326": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "By Price",
+              "arra_enter": "",
+              "use_auto_filter_tag": true,
+              "key": "Price",
+              "style": "ck"
+            }
+          },
+          "1581913909406": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "By Size",
+              "arra_enter": "",
+              "use_auto_filter_tag": true,
+              "key": "Size",
+              "style": "ck"
+            }
+          }
+        },
+        "block_order": [
+          "1581909372373",
+          "1581914074326",
+          "1581913909406",
+          "1581913174211"
+        ],
+        "settings": {
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show": true,
+          "title": "RELATED PRODUCTS",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "display_type": "4",
+          "limit": 6,
+          "space": 30,
+          "col_pr": "3",
+          "col_pr_tb": "3",
+          "col_pr_mb": "12",
+          "pr_des": "1",
+          "show_vendor": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": false,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8"
+        }
+      },
+      "165135228471b44c7c": {
+        "type": "featured_collection_owl",
+        "settings": {
+          "title": "NEW ARRIVALS",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "collection": "all",
+          "limit": 2,
+          "space": 30,
+          "use_pagination": "none",
+          "btn_rd": false,
+          "btn_icon": false,
+          "btn_style": "default",
+          "col_pr": "3",
+          "col_pr_tb": "3",
+          "col_pr_mb": "12",
+          "pr_des": "1",
+          "show_vendor": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": true,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": false,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "hidden": false,
+          "cp_code": false,
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "cart_widget": {
+        "type": "cart_widget",
+        "blocks": {
+          "cart_widget-0": {
+            "type": "price",
+            "settings": {
+            }
+          },
+          "cart_widget-1": {
+            "type": "tax",
+            "settings": {
+            }
+          },
+          "cart_widget-2": {
+            "type": "agree",
+            "disabled": true,
+            "settings": {
+            }
+          },
+          "cart_widget-3": {
+            "type": "btnc",
+            "settings": {
+            }
+          },
+          "cart_widget-4": {
+            "type": "btnck",
+            "settings": {
+            }
+          },
+          "cart_widget-5": {
+            "type": "btnmr",
+            "settings": {
+            }
+          },
+          "cart_widget-6": {
+            "type": "img",
+            "settings": {
+            }
+          },
+          "cart_widget-7": {
+            "type": "btn",
+            "settings": {
+              "title": "Return To Shop",
+              "url": "",
+              "style": "primary tu"
+            }
+          }
+        },
+        "block_order": [
+          "cart_widget-0",
+          "cart_widget-1",
+          "cart_widget-2",
+          "cart_widget-3",
+          "cart_widget-4",
+          "cart_widget-5",
+          "cart_widget-6",
+          "cart_widget-7"
+        ],
+        "settings": {
+          "style": "1",
+          "pos": "2",
+          "enable_pr": true,
+          "calc_ship": false,
+          "show_note": false,
+          "show_rates": false,
+          "show_discount": true,
+          "show_gift_wrap": true
+        }
+      },
+      "cp_heading": {
+        "type": "cp_heading",
+        "blocks": {
+          "cp_heading-0": {
+            "type": "2",
+            "settings": {
+              "text": "<p>View your compare list<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "cp_heading-0"
+        ],
+        "settings": {
+          "parallax": false,
+          "color": "#000000",
+          "overlay": 54,
+          "padding": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "tn-hero-banner-about": {
+        "type": "tn-hero-banner-about",
+        "settings": {
+          "heading": "About Us",
+          "topheading": "THE SPIRIT OF RELENTLESS",
+          "bg": "shopify:\/\/shop_images\/tornado_web_about_us.png"
+        }
+      },
+      "collection_page_html": {
+        "type": "collection_page_html",
+        "settings": {
+          "code": "<h1>Buy Tornado Watches Online Dubai<\/h1>\n<p style=\"text-align: justify;\">Make your watch buying process quick and easy with Tornado's high-quality watches. Buy, Tornado watch for men and explore the best luxury watches in one place, that stay beautiful in the world of watchmaking. Shop online for watches on Tornado's official page, the watches that add style to your overall look. Here, it is brought together with a wide range of classy watches which are made with extra care by famous brands like Tornado.<\/p>\n<p style=\"text-align: justify;\">So go ahead in getting yourself a brand new, elegant watch to pick out the complementing style statement of your own. Buy Tornado watch online, for every occasion to explore the varied range of great quality watches. In our diverse collection of wristwatches, you can take your favourite pick and you will always have the freedom of choice and the abundance of availability. On Tornado's website, you get to pick an option of watch for every occasion, by being on your side to get resolved to cater to your every need.<\/p>\n<p style=\"text-align: justify;\">Shop online from Tornado watches UAE, for premium quality watches which have been designed by their manufacturers to bring out the tough and quality comfort so as to score high on durability. Tornado watches are available in different styles and shapes that go high as a great quality wristwatch for your every mood. Your choice is to find one that suits you best in all trendy dresses. Shop online at your ease for a trendy yet durable watch at an exclusive price from Tornado. Checkout to know more about Tornado Watch price in UAE.<\/p>\n<h2>Buy Tornado Watch for Men<\/h2>\n<p style=\"text-align: justify;\">Tornado is a leading brand name for designer watches with a coveted range of collections that are stylish, suave and chic. We are the one-stop destination for superior cherished timepieces that can become beautiful heirlooms to pass down from generation to generation. The Tornado stores own pride in premium watch collections like no other and are a perfect destination for branded watches online.<\/p>\n<p style=\"text-align: justify;\">Buy Tornado watch online, something that is a necessity to make one feel good with the modern ones that are now more popular. We own collections with various features that accompany the latest designs and ensure every customer gets the best in just about quality or cost. We have a wide range of selections that encapsulate personality and you are most welcome to look into these collections to grab something that can't be missed. It is all about comfort, which is much more concerned with the latest special design styles combined with spending a fortune in our collection that is just perfect among all watch collections.<\/p>\n<p style=\"text-align: justify;\">The stylish wrist watches here, Tornado watches, UAE, offer the elegance to meet your needs in the most fashionable from a wide range of designs that goes more to your preference.<\/p>\n<h2>Where can I buy Tornado Watch Products Online?<\/h2>\n<p style=\"text-align: justify;\">With the advancement in technology, Tornado's online shopping platform keeps you updated with the latest trends and top-selling watch models in the online market today. Buy premium watches online Dubai from Tornado, A portable timepieces that are fashion accessories and carry forward the trend of wearing exclusive timepieces that leads to a better fashion statement. This website platform displays the different categories, styles, and Tornado watch price in UAE  along with designs, also providing one of the best ranges of unique as well as exclusive timepieces. <\/p>\n<p style=\"text-align: justify;\">The timepieces here include analogue and digital styles in diverse shapes and indicate the diversity of products made of different elements. Buy Tornado watch online, the stylish and exclusive watch collections can be considered in the diverse stages of one's life and the perfect timepieces to suit each and every individual's personality and need. The various product categories available on the Tornado website include luxury styles that attract customers as per their demand.<\/p>\n<p style=\"text-align: justify;\">Style is considered the ultimate factor for Tornado watches, UAE, as they deliver a unique look in the unique timepiece. Different timepieces for different occasions provide the finishing touch to the beauty they expect and create an urge to buy an elegant timepiece.<\/p>\n<h2>What are the top Tornado Watch products available on Tornado Store?<\/h2>\n<p style=\"text-align: justify;\">Buy Tornado watch for men, the timepieces that provide an additional spark to daily life, which is embarked with different designs along with colours. Wristwatch and innovative digital watches provide numerous ranges to attract a large number of customers and the varieties of timepieces come in analogue, digital, multifunction, non-multifunction, and projector displays.<\/p>\n<p style=\"text-align: justify;\">Tornado offers the individuals to select the timepieces of their choice from a wide range of categories on the basis of price, popularity, and fresh arrivals. Buy premium watches online Dubai from Tornado, that mark a significant role in attracting customers as well. Get in touch with us to know more about the new model Tornado Watch price in UAE.<\/p>\n<p style=\"text-align: justify;\">Buy premium watches online Dubai from Tornado watches and explore classic styles from the latest trends. Tornado watches, UAE, bring watches and watch-lovers together and showcase the masterpieces that exhibit craftsmanship taking a personal interest in providing cherished quality timepieces. Our endeavour is to bring extraordinary convenience to the customer's ease in making a statement with the latest trendy designs with superior quality standards. Our contributions continually evoke pride and confidence in every customer and our top-class services set you perfectly in the trend and style.<\/p>\n<h2>Buy Analog and Chronograph Watches from Tornado<\/h2>\n<p style=\"text-align: justify;\">Welcome to our online Watch store, where you can buy analog and chronograph watches from our extensive collection. Whether you’re looking for a functional timepiece or a fashionable accessory, we have watches to meet your needs. Our premium watch store offers you the convenience of shopping from the comfort of your home, with the added benefit of a vast selection of watches from Tornado. <\/p>\n\n<p style=\"text-align: justify;\">Analog watches are classic timepieces that have been around for centuries. They use a system of gears and springs to power the watch’s hands, which move in a circular motion around the face of the watch. Analog watches offer a timeless look and are versatile enough to wear with any outfit. They are perfect for those who appreciate the simplicity and elegance of traditional watchmaking.<\/p>\n\n<p style=\"text-align: justify;\">Chronograph watches are a modern twist on the classic analog watch. They combine the functionality of a stopwatch with the elegance of an analog watch. Chronograph watches feature an additional set of hands on the watch face that can be used to measure elapsed time. They are perfect for those who lead an active lifestyle or need to keep track of time accurately.<\/p>\n\n<p style=\"text-align: justify;\">Our online watch store in Dubai offers a broad range of analog and chronograph watches from Tornado. We understand that buying a watch is a significant investment, which is why we offer a vast selection of watches at affordable prices. When you buy a watch from our online store, you can be confident that you’re buying a genuine product.  We also offer a warranty on all our watches to give you peace of mind.<\/p>\n\n<p style=\"text-align: justify;\">When you buy a watch from our online store, you’re not just buying a timepiece; you’re investing in quality craftsmanship, style, and functionality. We understand that a watch is more than just a tool to tell time; it’s an expression of your personality and style. Our collection of analog and chronograph watches offers something for everyone, whether you’re looking for a dress watch for a formal occasion or a sports watch for an active lifestyle.<\/p>",
+          "layout": "nt_full",
+          "mg": "0px,,0px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "header_1": {
+        "type": "header_1",
+        "settings": {
+          "height": 62
+        }
+      },
+      "header_2": {
+        "type": "header_2",
+        "blocks": {
+          "header_2-0": {
+            "type": "simple",
+            "settings": {
+              "title": "Heading 1",
+              "url": "#",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "header_2-1": {
+            "type": "logo",
+            "settings": {
+            }
+          },
+          "header_2-2": {
+            "type": "simple",
+            "settings": {
+              "title": "Heading 2",
+              "url": "#",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          }
+        },
+        "block_order": [
+          "header_2-0",
+          "header_2-1",
+          "header_2-2"
+        ],
+        "settings": {
+          "height": 62,
+          "arrow": false,
+          "source": "1",
+          "txt": "Welcome to our store!",
+          "social": "2",
+          "align": "tc",
+          "hover": "hover_side_up"
+        }
+      },
+      "header_10": {
+        "type": "header_10",
+        "settings": {
+          "height": 80
+        }
+      }
+    },
+    "content_for_index": [
+      "1649754428a9c52dc4",
+      "1649755547f618d190",
+      "164975820774ad402a",
+      "1651341724cf93c815",
+      "164976782079787147",
+      "1652856651f13332b3",
+      "16504845066db7c477",
+      "165135228471b44c7c",
+      "16504901391a069fb4",
+      "1581508120953",
+      "16509113904c5552e0",
+      "165553809799af96fd",
+      "1660108657d9337710",
+      "208bb35a-e7f2-41c9-a57f-1604ac839597"
+    ],
+    "blocks": {
+      "6615124273980966592": {
+        "type": "shopify:\/\/apps\/avada-helpdesk-faq\/blocks\/app-embed\/1c0e135d-e8e1-4fe2-86be-1c36def46675",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  }
+}

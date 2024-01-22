@@ -1,0 +1,337 @@
+{%- liquid 
+  assign sid = section.id
+  assign se_stts = section.settings
+  assign se_height = se_stts.se_height
+  assign video_url = se_stts.video_url | default:"https://www.youtube.com/watch?v=_9VUPq3SxOc" 
+  assign source = se_stts.source
+  assign image = se_stts.image -%}
+{% if product.metafields.custom.product_video_file != blank %}
+<div class="hero_video_se nt_se_{{sid}} {{se_stts.layout}} txt_shadow_{{se_stts.use_shadow}} se_height_{{se_height}} nt_first{% if source == '1' %} video_loading js_video{% endif %}" data-id="{{ video_url.id }}">
+  <div class="row">
+    <div class="col-12">
+      <div class="nt_img_txt oh pr middle center">
+        <div class="nt_bg_lz">
+             <video id="video_{{sid}}" class="vid_nt vid_nt_js pa t__0 l__0 op__0 vid_bg lazypreloadt4s" preload="none" playsinline data-autoplay muted loop>
+                <source src="{{ product.metafields.custom.product_video_file }}" type="video/mp4">
+             </video>
+              <div class="pa t__0 l__0 b__0 r__0 flex column tc fl_center pe_none btn_video_ef">
+                <button type="button" class="flex fl_center al_center video-control__play"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-play" viewBox="0 0 20 40"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.6 16.8L7 1.5C5.6.3 4 .2 2.9.7 1.6 1.4.8 2.7.7 3.8v31.7c0 1.8 1.1 3.3 3.1 3.3 1.5 0 2.5-.5 3.4-1.4l16.4-15.7c1.5-1.4 1.5-3.6 0-4.9z"></path></svg></button>
+              </div>
+          {%- if image != blank -%}
+          <div class="pa l__0 t__0 r__0 b__0 img_vid_js bg_rp_norepeat bg_sz_cover pe_none" data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" style="background-image: url({{ image | img_url: '1x1' }})"></div>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{%- endif -%}
+
+{%- render 'section_css' -%}
+{%- style -%}
+   .nt_se_{{sid}} .nt_img_txt>a:after{ background-color: {{se_stts.cl_overlay}};opacity: {{se_stts.cl_opacity | divided_by: 100.00}} }
+ {%- if se_height == 'cus_h' -%}
+      {%- if se_stts.use_custom_h == '2' -%}{% assign rto = ratio | default:3 %}{%- assign pd_top = 1 | divided_by: ratio | times: 100 -%}
+        .nt_se_{{sid}}.se_height_cus_h .nt_bg_lz{padding-top:{{ se_stts.h_mb | replace:'px','' | strip }}px}
+        @media (min-width: 768px) { .nt_se_{{sid}}.se_height_cus_h .nt_bg_lz{padding-top:{{ se_stts.h_tb | replace:'px','' | strip }}px} }
+        @media (min-width: 1025px) { .nt_se_{{sid}}.se_height_cus_h .nt_bg_lz{padding-top:{{pd_top}}% } }
+        {%- elsif se_stts.use_custom_h == '3' -%}{% assign rto = ratio | default:3 %}{%- assign pd_top = 1 | divided_by: ratio | times: 100 -%}
+        .nt_se_{{sid}}.se_height_cus_h .nt_bg_lz{padding-top:{{ se_stts.h_mb | replace:'px','' | strip }}px}
+        @media (min-width: 768px) { .nt_se_{{sid}}.se_height_cus_h .nt_bg_lz{padding-top:{{pd_top}}% } }
+        @media (min-width: 1025px) { .nt_se_{{sid}}.se_height_cus_h .nt_bg_lz{padding-top:{{pd_top}}% } }
+      {%- else -%}
+        .nt_se_{{sid}}.se_height_cus_h .nt_bg_lz{padding-top:{{ se_stts.h_mb | replace:'px','' | strip }}px}
+        @media (min-width: 768px) { .nt_se_{{sid}}.se_height_cus_h .nt_bg_lz{padding-top:{{ se_stts.h_tb | replace:'px','' | strip }}px} }
+        @media (min-width: 1025px) { .nt_se_{{sid}}.se_height_cus_h .nt_bg_lz{padding-top:{{ se_stts.h_des | replace:'px','' | strip }}px} }
+      {%- endif -%}
+  {%- endif -%}
+
+  {%- for block in section.blocks -%}{%- assign bid = block.id -%}{% assign bk_stts = block.settings -%}
+      {%- case block.type -%}
+        {%- when '1' -%}
+        .nt_se_{{sid}} .nt_img_txt #b_{{bid}}{ {% if bk_stts.ls_mb_text != 0 %}letter-spacing:{{bk_stts.ls_mb_text}}px;{% endif %}{% if bk_stts.lh_mb_text != 0 %}line-height:{{bk_stts.lh_mb_text}}px;{% endif %}font-size: {{bk_stts.fs_mb_text}}px;font-weight: {{bk_stts.fw_text}};color: {{bk_stts.color}} }
+        @media (min-width: 768px) {.nt_se_{{sid}} .nt_img_txt #b_{{bid}} { {% if bk_stts.ls_text != 0 %}letter-spacing:{{bk_stts.ls_text}}px;{% endif %}{% if bk_stts.lh_text != 0 %}line-height: {{bk_stts.lh_text}}px;{% endif %}font-size: {{bk_stts.fs_text}}px}}
+          
+        {%- when '2' -%}
+        .nt_se_{{sid}} .nt_img_txt #b_{{bid}}{ {% if bk_stts.ls_mb_text != 0 %}letter-spacing:{{bk_stts.ls_mb_text}}px;{% endif %}{% if bk_stts.lh_mb_text != 0 %}line-height:{{bk_stts.lh_mb_text}}px;{% endif %}font-size: {{bk_stts.fs_mb_text}}px;font-weight: {{bk_stts.fw_text}};color: {{bk_stts.color}} }
+        @media (min-width: 768px) {.nt_se_{{sid}} .nt_img_txt #b_{{bid}} { {% if bk_stts.ls_text != 0 %}letter-spacing:{{bk_stts.ls_text}}px;{% endif %}{% if bk_stts.lh_text != 0 %}line-height: {{bk_stts.lh_text}}px;{% endif %}font-size: {{bk_stts.fs_text}}px}}
+
+        {%- when '4' -%}
+        #b_{{bid}} {width: {{bk_stts.w_mb}}px;margin: {{bk_stts.sp_mb}}px 0 {{bk_stts.spb_mb}}px;height: {{bk_stts.h_mb}}px;background-color: {{bk_stts.color}}}
+       @media (min-width: 768px) { #b_{{bid}} {width: {{bk_stts.w}}px;margin: {{bk_stts.sp}}px 0 {{bk_stts.spb}}px;height: {{bk_stts.h}}px} }
+
+        {%- when '6' -%}
+        #b_{{bid}} {height: {{bk_stts.sp_mb}}px}
+        @media (min-width: 768px) {#b_{{bid}} { height:{{bk_stts.sp}}px} }
+
+        {%- when '8'  %}{% assign image = bk_stts.image %}{% if image == blank %}{% continue %}{% endif %}#b_{{bid}} img{ max-width:{% if bk_stts.width_mb > 0 %}{{bk_stts.width_mb}}{% else %}{{image.width}}{% endif %}px}@media (min-width: 768px) {#b_{{bid}} img{ max-width:{% if bk_stts.width > 0 %}{{bk_stts.width}}{% else %}{{image.width}}{% endif %}px} }
+
+        {%- when '3' -%}
+         .nt_se_{{sid}} .imtt4_btn{
+           padding-left:{{bk_stts.pd_mb}}px;padding-right:{{bk_stts.pd_mb}}px;border-radius:{{bk_stts.bdr_mb}}px;{% if bk_stts.ls_mb_text != 0 %}letter-spacing:{{bk_stts.ls_mb_text}}px;{% endif %}min-height:{{bk_stts.h_mb}}px;font-size: {{bk_stts.fs_mb_text}}px;color: {{bk_stts.cl_txt}};background-color: {{bk_stts.cl_bg}};border-color: {{bk_stts.cl_bd}}
+         }
+         .nt_se_{{sid}} .imtt4_btn.btn_icon_true:after {color: {{bk_stts.cl_txt}} }
+         @media (min-width: 768px) {.nt_se_{{sid}} .imtt4_btn { padding-left:{{bk_stts.pd}}px;padding-right:{{bk_stts.pd}}px;border-radius:{{bk_stts.bdr}}px;{% if bk_stts.ls_text != 0 %}letter-spacing:{{bk_stts.ls_text}}px;{% endif %}font-weight: {{bk_stts.fw_text}};min-height:{{bk_stts.h}}px;font-size: {{bk_stts.fs_text}}px }}
+      {%- endcase -%}
+  {%- endfor -%}
+
+{%- endstyle -%}
+
+{%- schema -%}
+  {
+    "name": "Product video",
+    "class": "nt_section type_hero_video tp_se_cdt2",
+    "settings": [
+      {
+        "type": "header",
+        "content": "== General Settings"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Cover image",
+        "info":"Fallback when autoplaying video is not supported on mobile devices"
+      },
+      {
+        "type": "select",
+        "id": "source",
+        "label": "Source Video:",
+        "default": "1",
+        "options": [
+          {
+            "value": "1",
+            "label": "Youtube"
+          },
+          {
+            "value": "2",
+            "label": "Upload file"
+          }
+        ]
+      },
+      {
+         "id": "video_url",
+         "type": "video_url",
+         "label": "1. Video URL",
+         "accept": ["youtube"],
+         "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+         "info": "Accepts YouTube links"
+      },
+      {
+        "type": "text",
+        "id": "file_name",
+        "label": "2. File name",
+        "info": "FIle name from uploaded files. File size is smaller 4 mb recommended"
+      },
+      {
+        "type": "paragraph",
+        "content": "—————————————————"
+      },
+      {
+        "type": "select",
+        "id": "se_height",
+        "label": "Section height",
+        "default": "full",
+        "options": [
+          {
+            "value": "full",
+            "label": "Full screen height"
+          },
+          {
+            "value": "cus_h",
+            "label": "Custom height"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "—————————————————"
+      },
+      {
+        "type": "select",
+        "id": "use_custom_h",
+        "default": "1",
+        "options": [
+         {
+            "value": "1",
+            "label": "All Screen"
+          },
+         {
+            "value": "2",
+            "label": "Tablet + Mobile"
+          },
+         {
+            "value": "3",
+            "label": "Mobile"
+          }
+        ],
+        "label": "Use Custom height on:"
+      },
+      {
+        "type": "text",
+        "id": "h_des",
+        "label": "Desktop Large",
+        "placeholder": "600px",
+        "default": "600px"
+      },
+      {
+        "type": "text",
+        "id": "h_tb",
+        "label": "Tablet < 1025px)",
+        "placeholder": "500px",
+        "default": "500px"
+      },
+      {
+        "type": "text",
+        "id": "h_mb",
+        "label": "Mobile (< 768px)",
+        "placeholder": "350px",
+        "default": "350px"
+      },
+      {
+         "type": "header",
+         "content": "== Caption settings"
+       },
+      {
+        "type": "select",
+        "id": "caption_w",
+        "default": "2",
+        "options": [
+         {
+            "value": "1",
+            "label": "Container"
+         },
+         {
+            "value": "2",
+            "label": "Full Width"
+          }
+        ],
+        "label": "Caption Width"
+      },
+      {
+         "type": "range",
+         "id": "cap_v_pos",
+         "label": "Caption vertical position",
+         "info":" <= 50: Top position , > 50 bottom position",
+         "default": 50,
+         "min": 0,
+         "max": 100,
+         "step": 1,
+         "unit": "%"
+      },
+      {
+         "type": "range",
+         "id": "cap_h_pos",
+         "label": "Caption horizontal position",
+         "info":" <= 50: Left position , > 50 right position",
+         "default": 50,
+         "min": 0,
+         "max": 100,
+         "step": 1,
+         "unit": "%"
+      },
+      {
+        "type": "select",
+        "id": "txt_align",
+        "label": "Text alignment",
+        "default": "tc",
+        "options": [
+          {
+            "value": "tl",
+            "label": "Left"
+          },
+          {
+            "value": "tc",
+            "label": "Center"
+          },
+          {
+            "value": "tr",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "== Color"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_shadow",
+        "label": "Use text shadow?",
+        "default": false
+      },
+      {
+        "type": "color",
+        "id": "cl_overlay",
+        "label": "Overlay",
+        "default": "#000"
+      },
+      {
+        "type": "range",
+        "id": "cl_opacity",
+        "label": "Overlay opacity",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%"
+      },
+      {
+        "type": "header",
+        "content": "== Design Options"
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "default": "nt_full",
+        "options": [
+         {
+            "value": "container",
+            "label": "Container"
+         },
+         {
+            "value": "nt_full",
+            "label": "Full Width"
+          }
+        ],
+        "label": "Layout"
+      },
+      {
+        "type": "text",
+        "id": "mg",
+        "label": "Margin",
+        "info":"Margin top, margin right, margin bottom, margin left. If you not use to blank",
+        "default": "50px,,50px,",
+        "placeholder": "50px,,50px,"
+      },
+      {
+        "type": "text",
+        "id": "pd",
+        "label": "Padding",
+        "info":"Padding top, padding right, padding bottom, padding left. If you not use to blank",
+        "placeholder": "50px,,50px,"
+      },
+     {
+        "type": "header",
+        "content": "== Design Mobile Options"
+      },
+      {
+        "type": "text",
+        "id": "mg_mb",
+        "label": "Margin",
+        "placeholder": "50px,,50px,"
+      },
+      {
+        "type": "text",
+        "id": "pd_mb",
+        "label": "Padding",
+        "placeholder": "50px,,50px,"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product video",
+        "category": "IV. Video"
+      }
+    ]
+  }
+{% endschema %}
